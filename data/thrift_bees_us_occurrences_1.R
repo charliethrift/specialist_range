@@ -5,6 +5,43 @@ data <- vroom("ct_dorey_bees.csv")
 
 df <- data[,c(2:8,22:23,28,44:46)]
 rm(data) #remove dfs from environment
+rm(df)
+
+
+# match with just the 353 target species in the paper
+target_sp353 <- read.csv("species_list_19jun25.csv")
+target_sp353 <- as.data.frame(target_sp353[,c(3)])
+colnames(target_sp353)[1]<-"species"
+
+list <- inner_join(df,target_sp353, by = "species")
+
+summary <- list %>% 
+  group_by(species) %>% 
+  summarise(count = n())
+
+write.csv(summary, "summary_stats_for353_target_sp.csv")
+mean(summary$count)
+median(summary$count)
+max(summary$count)
+hist(summary$count)
+
+summary2 <- summary %>% 
+  group_by(count) %>% 
+  summarise(freq = n())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #write full dataset as different families
 and <- subset(df, family == "Andrenidae")
