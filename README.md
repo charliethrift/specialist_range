@@ -1,7 +1,7 @@
 # Floral specialization correlates with restricted range size in bees across five families
 [Charles N. Thrift](https://orcid.org/0000-0002-4257-6951), [Thomas J. Wood](https://orcid.org/0000-0001-5653-224X) & [Katja C. Seltmann](https://orcid.org/0000-0001-5354-6048)
 
-In prep
+_In prep_
 
 Please contact Charles Thrift for questions regarding the code or data (cnthrift@ucsb.edu)
 
@@ -24,7 +24,7 @@ Floral specialization correlates with restricted range size in bees across five 
 # Repository Directory
 
 ## Scripts: Contains code for data analysis in R
-1. "create_chulls" - build convex hulls for each species using occurrence data
+1. "create_hulls" - build convex hulls for each species using occurrence data
 2. "analyses" - run linear models and build all figures
 
 
