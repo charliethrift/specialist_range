@@ -1,4 +1,4 @@
-# Floral specialization correlates with restricted range size in bees across five families
+# Floral specialization correlates with restricted range size in bees across six families
 [Charles N. Thrift](https://orcid.org/0000-0002-4257-6951), [Thomas J. Wood](https://orcid.org/0000-0001-5653-224X) & [Katja C. Seltmann](https://orcid.org/0000-0001-5354-6048)
 
 _In prep_
