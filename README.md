@@ -24,6 +24,11 @@ Floral specialization correlates with restricted range size in bees across six f
 
 # Repository Directory
 
+## Data
+1. data_clean_dietFamily.csv | Bee species, family, and range variables
+2. family_rarified.csv | Rarefied diet information for bee species at plant **family** level
+3. genus_rarified.csv | Rarefied diet information for bee species at the plant **genus** level
+
 ## Scripts: Contains code for data analysis in R
 1. "create_hulls" - build convex hulls for each species using occurrence data
 2. "analyses" - run linear models and build all figures
