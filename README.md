@@ -34,6 +34,8 @@ Diet breadth and range size are two important life history traits, and species w
 | :------- | :------ |
 | create_hulls.R | Build convex hulls for each species using occurrence data |
 | analyses.R | Run linear models and build all figures |
+| bee_phylogeny.R | Construct bee species phylogeny and run PGLS |
+
 
 
 
