@@ -1,0 +1,861 @@
+Rank,Family,Species_wood,species,Rare10,Integer
+327,Halictidae,Patellapis sp. 1,,4.139835,4
+310,Megachilidae,Chelostoma species 3,,4.766818,5
+132,Halictidae,Augochloropsis viridula (=metallica fulgida sensu Mitchell),Augochloropsis viridula,8.942147,9
+537,Andrenidae,Andrena carolina (combined with TJW data),Andrena carolina,1,1
+663,Colletidae,Colletes validus (combined with TJW data),Colletes validus,1,1
+590,Andrenidae,Andrena russula [as A. similis],Andrena russula,1,1
+711,Megachilidae,Hoplitis (Hoplitis) adunca,Hoplitis adunca,1,1
+462,Apidae,Eucera (Synhalonia) aff. spectabilis, ,1.973389,2
+731,Megachilidae,Hoplitis (Platosmia) africana,Hoplitis africana,1,1
+315,Megachilidae,Osmia (Tergosmia) agilis,Osmia agilis,4.632739,5
+704,Megachilidae,Hoplitis (Chlidoplitis) alli,Hoplitis alli,1,1
+35,Megachilidae,Megachile (Megachile) alpicola,Megachile alpicola,12.763536,13
+168,Apidae,Eucera (Synhalonia) alternans,Eucera alternans,8,8
+791,Megachilidae,Osmia (Melanosmia) alticola,Osmia alticola,1,1
+324,Megachilidae,Megachile (Xanthosarus) analis,Megachile analis,4.26959,4
+777,Megachilidae,Osmia (Hemiosmia) anceps,Osmia anceps,1,1
+782,Megachilidae,Osmia (Hoplosmia) anceyi,Osmia anceyi,1,1
+183,Megachilidae,Osmia (Erythrosmia) andrenoides,Osmia andrenoides,7.789873,8
+505,Megachilidae,Hoplitis (Hoplitis) annulata,Hoplitis annulata,1.360321,1
+712,Megachilidae,Hoplitis (Hoplitis) anthocopoides,Hoplitis anthocopoides,1,1
+274,Megachilidae,Megachile (Neoeutricharaea) apicalis,Megachile apicalis,5.403922,5
+793,Megachilidae,Osmia (Osmia) apicata,Osmia apicata,1,1
+713,Megachilidae,Hoplitis (Hoplitis) aqabaensis,Hoplitis aqabaensis,1,1
+778,Megachilidae,Osmia (Hemiosmia) argyropyga,Osmia argyropyga,1,1
+443,Megachilidae,Osmia (Helicosmia) aurulenta,Osmia aurulenta,2,2
+796,Megachilidae,Osmia (Tergosmia) avosetta,Osmia avosetta,1,1
+779,Megachilidae,Osmia (Hemiosmia) balearica,Osmia balearica,1,1
+714,Megachilidae,Hoplitis (Hoplitis) bassana,Hoplitis bassana,1,1
+480,Megachilidae,Hoplitis (Hoplitis) benoisti,Hoplitis benoisti,1.760362,2
+13,Megachilidae,Osmia (Osmia) bicornis,Osmia bicornis,15.008247,15
+499,Megachilidae,Osmia (Hoplosmia) bidentata,Osmia bidentata,1.410574,1
+387,Megachilidae,Hoplitis (Hoplitis) bihamata,Hoplitis bihamata,2.999979,3
+329,Megachilidae,"Hoplitis (Hoplitis) ""brunnescens"" =prosii Müller, 2022",Hoplitis brunnescens,4.105718,4
+444,Megachilidae,Osmia (Helicosmia) caerulescens,Osmia caerulescens,2,2
+783,Megachilidae,Osmia (Hoplosmia) carbo,Osmia carbo,1,1
+512,Megachilidae,Hoplitis (Hoplitis) carinata,Hoplitis carinata,1.199601,1
+784,Megachilidae,Osmia (Hoplosmia) centaureae,Osmia centaureae,1,1
+371,Megachilidae,Osmia (Osmia) cerinthidis,Osmia cerinthidis,3.4316,3
+715,Megachilidae,Hoplitis (Hoplitis) christae,Hoplitis christae,1,1
+379,Megachilidae,Osmia (Hemiosmia) chrysolepta,Osmia chrysolepta,3.101876,3
+748,Halictidae,Lasioglossum (Hemihalicus) clypeare,Lasioglossum clypeare,1,1
+747,Halictidae,Lasioglossum (Hemihalictus) convexiusculum,Lasioglossum convexiusculum,1,1
+140,Megachilidae,Osmia (Osmia) cornifrons,Osmia cornifrons,8.702107,9
+147,Megachilidae,Osmia (Osmia) cornuta,Osmia cornuta,8.559766,9
+785,Megachilidae,Osmia (Hoplosmia) croatica,Osmia croatica,1,1
+372,Megachilidae,Hoplitis (Hoplitis) ctenophora,Hoplitis ctenophora,3.402523,3
+440,Apidae,Eucera (Synhalonia) cuniculina,Eucera cuniculina,2,2
+780,Megachilidae,Osmia (Hemiosmia) difficilis,Osmia difficilis,1,1
+786,Megachilidae,Osmia (Hoplosmia) distinguenda,Osmia distinguenda,1,1
+321,Megachilidae,Osmia (Osmia) emarginata,Osmia emarginata,4.418346,4
+447,Megachilidae,Wainia (Caposmia) eremoplana,Wainia eremoplana,1.999912,2
+228,Megachilidae,Osmia (Erythrosmia) erythrogastra,Osmia erythrogastra,6.463114,6
+225,Megachilidae,Osmia (Osmia) excavata,Osmia excavata,6.512813,7
+354,Megachilidae,Hoplitis (Hoplitis) fabrei,Hoplitis fabrei,3.842219,4
+280,Megachilidae,Osmia (Osmia) fedtschenkoi,Osmia fedtschenkoi,5.138479,5
+428,Megachilidae,Hoplitis (Hoplitis) fertoni,Hoplitis fertoni,2.038783,2
+417,Megachilidae,Hoplitis (Hoplitis) flabellifera,Hoplitis flabellifera,2.496591,2
+762,Megachilidae,Megachile (Neoeutricharaea) flabellipes,Megachile flabellipes,1,1
+733,Megachilidae,Hoplitis (Stenosmia) flavicornis,Hoplitis flavicornis,1,1
+288,Apidae,Eucera (Synhalonia) frater,Eucera frater,5,5
+396,Apidae,Anthophora (Clisodon) furcata,Anthophora furcata,2.933471,3
+453,Megachilidae,Osmia (Tergosmia) glareola,Osmia glareola,1.997863,2
+734,Megachilidae,Hoplitis (Stenosmia) gobiensis,Hoplitis gobiensis,1,1
+705,Megachilidae,Hoplitis (Chlidoplitis) haplophylli,Hoplitis haplophylli,1,1
+735,Megachilidae,Hoplitis (Stenosmia) hartliebi,Hoplitis hartliebi,1,1
+706,Megachilidae,Hoplitis (Chlidoplitis) heinrichi,Hoplitis heinrichi,1,1
+716,Megachilidae,Hoplitis (Hoplitis) hierichonica,Hoplitis hierichonica,1,1
+504,Megachilidae,Hoplitis (Hoplitis) hoggara,Hoplitis hoggara,1.37037,1
+483,Megachilidae,Hoplitis (Hoplitis) holmboei,Hoplitis holmboei,1.726817,2
+717,Megachilidae,Hoplitis (Hoplitis) homalocera,Hoplitis homalocera,1,1
+707,Megachilidae,Hoplitis (Chlidoplitis) illustris,Hoplitis illustris,1,1
+362,Megachilidae,Osmia (Melanosmia) inermis,Osmia inermis,3.698242,4
+419,Megachilidae,Hoplitis (Hoplitis) insularis,Hoplitis insularis,2.384615,2
+718,Megachilidae,Hoplitis (Hoplitis) israelica,Hoplitis israelica,1,1
+719,Megachilidae,Hoplitis (Hoplitis) jheringii,Hoplitis jheringii,1,1
+384,Megachilidae,Hoplitis (Stenosmia) jordanica,Hoplitis jordanica,3,3
+138,Megachilidae,Osmia (Osmia) kohli,Osmia kohli,8.727938,9
+511,Megachilidae,Osmia (Helicosmia) labialis,Osmia labialis,1.2,1
+720,Megachilidae,Hoplitis (Hoplitis) lepeletieri,Hoplitis lepeletieri,1,1
+184,Megachilidae,Osmia (Osmia) lignaria,Osmia lignaria,7.778255,8
+418,Megachilidae,Osmia (Hoplosmia) ligurica,Osmia ligurica,2.461703,2
+353,Megachilidae,Hoplitis (Hoplitis) loti,Hoplitis loti,3.842769,4
+797,Megachilidae,Osmia (Tergosmia) lunata,Osmia lunata,1,1
+708,Megachilidae,Hoplitis (Chlidoplitis) lysholmi,Hoplitis lysholmi,1,1
+732,Megachilidae,Hoplitis (Platosmia) maghrebensis,Hoplitis maghrebensis,1,1
+488,Megachilidae,Hoplitis (Hoplitis) manicata,Hoplitis manicata,1.618598,2
+501,Megachilidae,Hoplitis (Hoplitis) marchali,Hoplitis marchali,1.373608,1
+794,Megachilidae,Osmia (Osmia) maxillaris,Osmia maxillaris,1,1
+250,Megachilidae,Osmia (Osmia) melanocephala,Osmia melanocephala,5.96874,6
+333,Colletidae,Colletes consors mesoscopus,Colletes consors,4,4
+486,Megachilidae,Hoplitis (Stenosmia) minima,Hoplitis minima,1.695902,2
+445,Megachilidae,Protosmia (Nanosmia) minutula,Protosmia minutula,2,2
+721,Megachilidae,Hoplitis (Hoplitis) monstrabilis,Hoplitis monstrabilis,1,1
+722,Megachilidae,Hoplitis (Hoplitis) mucida,Hoplitis mucida,1,1
+222,Megachilidae,Osmia (Osmia) mustelina,Osmia mustelina,6.610361,7
+301,Megachilidae,Osmia (Melanosmia) nigriventris,Osmia nigriventris,4.945257,5
+122,Megachilidae,Osmia (Osmia) nigrohirta,Osmia nigrohirta,9.208775,9
+723,Megachilidae,Hoplitis (Hoplitis) nisa,Hoplitis nisa,1,1
+709,Megachilidae,Hoplitis (Chlidoplitis) onychophora,Hoplitis onychophora,1,1
+485,Megachilidae,Hoplitis (Hoplitis) oreades,Hoplitis oreades,1.703975,2
+787,Megachilidae,Osmia (Hoplosmia) padri,Osmia padri,1,1
+377,Halictidae,Lasioglossum (Lasioglossum) pallens,Lasioglossum pallens,3.279991,3
+282,Megachilidae,Hoplitis (Hoplitis) pallicornis,Hoplitis pallicornis,5.109567,5
+724,Megachilidae,Hoplitis (Hoplitis) parana,Hoplitis parana,1,1
+347,Megachilidae,Osmia (Melanosmia) parietina,Osmia parietina,3.91467,4
+665,Apidae,Cubitalia (Pseudeucera) parvicornis,Cubitalia parvicornis,1,1
+199,Megachilidae,Osmia (Osmia) pedicornis,Osmia pedicornis,7.435642,7
+788,Megachilidae,Osmia (Hoplosmia) picena,Osmia picena,1,1
+473,Megachilidae,Hoplitis (Hoplitis) pici,Hoplitis pici,1.83957,2
+220,Megachilidae,Osmia (Melanosmia) pilicornis,Osmia pilicornis,6.631371,7
+761,Megachilidae,Megachile (Megachile) pilicrus,Megachile pilicrus,1,1
+789,Megachilidae,Osmia (Hoplosmia) pinguis,Osmia pinguis,1,1
+185,Apidae,Anthophora (Anthophora) plumipes,Anthophora plumipes,7.728844,8
+251,Apidae,Eucera (Synhalonia) primiveris,Eucera primiveris,5.96059,6
+339,Apidae,Anthophora (Dasymegilla) quadrimaculata,Anthophora quadrimaculata,3.999885,4
+392,Megachilidae,Hoplitis (Hoplitis) ravouxi,Hoplitis ravouxi,2.998443,3
+196,Megachilidae,Osmia (Erythrosmia) relicta,Osmia relicta,7.488627,7
+270,Megachilidae,Osmia (Tergosmia) rhodoensis,Osmia rhodoensis,5.453038,5
+198,Megachilidae,Osmia (Osmia) ribifloris,Osmia ribifloris,7.454564,7
+276,Megachilidae,Hoplitis (Formicapis) robusta,Hoplitis robusta,5.378335,5
+750,Colletidae,Leioproctus (Sarocolletes) rugatus,Leioproctus rugatus,1,1
+795,Megachilidae,Osmia (Osmia) scheherazade,Osmia scheherazade,1,1
+365,Megachilidae,Hoplitis (Hoplitis) segura,Hoplitis segura,3.650878,4
+268,Megachilidae,Osmia (Erythrosmia) sparsipuncta,Osmia sparsipuncta,5.502505,6
+725,Megachilidae,Hoplitis (Hoplitis) spec. nov. 1, ,1,1
+726,Megachilidae,Hoplitis (Hoplitis) spec. nov. 2, ,1,1
+727,Megachilidae,Hoplitis (Hoplitis) spec. nov. 3, ,1,1
+728,Megachilidae,Hoplitis (Hoplitis) speculum,Hoplitis speculum,1,1
+790,Megachilidae,Osmia (Hoplosmia) spinigera,Osmia spinigera,1,1
+470,Megachilidae,Osmia (Hoplosmia) spinulosa,Osmia spinulosa,1.887417,2
+463,Megachilidae,Osmia (Melanosmia) steinmanni,Osmia steinmanni,1.964448,2
+710,Megachilidae,Hoplitis (Chlidoplitis) taenioceras,Hoplitis taenioceras,1,1
+171,Megachilidae,Osmia (Osmia) taurus,Osmia taurus,7.996445,8
+469,Megachilidae,Hoplitis (Hoplitis) tenuiserrata,Hoplitis tenuiserrata,1.889679,2
+422,Megachilidae,Osmia (Tergosmia) tergestensis,Osmia tergestensis,2.24506,2
+730,Megachilidae,Hoplitis (Megahoplitis) tigrina,Hoplitis tigrina,1,1
+117,Megachilidae,Osmia (Osmia) tricornis,Osmia tricornis,9.273077,9
+240,Megachilidae,Hoplitis (Alcidamea) tuberculata,Hoplitis tuberculata,6.02035,6
+729,Megachilidae,Hoplitis (Hoplitis) uncaticornis,Hoplitis uncaticornis,1,1
+781,Megachilidae,Osmia (Hemiosmia) uncicornis,Osmia uncicornis,1,1
+203,Megachilidae,Osmia (Melanosmia) uncinata,Osmia uncinata,7.215124,7
+402,Megachilidae,Hoplitis (Anthocopa) villosa,Hoplitis villosa,2.849138,3
+792,Megachilidae,Osmia (Melanosmia) xanthomelana,Osmia xanthomelana,1,1
+195,Halictidae,Lasioglossum (Lasioglossum) xanthopus,Lasioglossum xanthopus,7.49872,7
+277,Megachilidae,Hoplitis (Tkalcua) zandeni,Hoplitis zandeni,5.345986,5
+497,Megachilidae,Hoplitis (Hoplitis) zonalis,Hoplitis zonalis,1.473814,1
+24,Andrenidae,Andrena (Andrena) fucata,Andrena fucata,13.177618,13
+100,Andrenidae,Andrena (Andrena) lapponica,Andrena lapponica,9.847643,10
+20,Andrenidae,Andrena (Andrena) rogenhoferi,Andrena rogenhoferi,13.475944,13
+139,Andrenidae,Andrena (Cnemidandrena) freygessneri,Andrena freygessneri,8.719384,9
+193,Andrenidae,Andrena (Euandrena) allosa,Andrena allosa,7.548516,8
+46,Andrenidae,Andrena (Euandrena) amieti (all generations),Andrena amieti,12.100598,12
+65,Andrenidae,Andrena (Euandrena) montana,Andrena montana,11.166126,11
+520,Andrenidae,Andrena (Hamandrena) nasuta,Andrena nasuta,1,1
+66,Andrenidae,Andrena (Oreomelissa) coitana,Andrena coitana,11.16181,11
+521,Andrenidae,Andrena aeneiventris,Andrena aeneiventris,1,1
+522,Andrenidae,Andrena aerinifrons,Andrena aerinifrons,1,1
+227,Andrenidae,Andrena afrensis,Andrena afrensis,6.482625,6
+275,Andrenidae,Andrena afzeliella,Andrena afzeliella,5.400241,5
+395,Andrenidae,Andrena agilissima,Andrena agilissima,2.954619,3
+191,Andrenidae,Andrena albopunctata,Andrena albopunctata,7.620169,8
+302,Andrenidae,Andrena alfkenella,Andrena alfkenella,4.89834,5
+523,Andrenidae,Andrena aliciae,Andrena aliciae,1,1
+103,Andrenidae,Andrena alleghaniensis,Andrena alleghaniensis,9.745688,10
+524,Andrenidae,Andrena ampla,Andrena ampla,1,1
+525,Andrenidae,Andrena andrenoides,Andrena andrenoides,1,1
+43,Andrenidae,Andrena angustior,Andrena angustior,12.412095,12
+247,Andrenidae,Andrena anthrisci,Andrena anthrisci,5.986021,6
+526,Andrenidae,Andrena antigana,Andrena antigana,1,1
+477,Andrenidae,Andrena apicata,Andrena apicata,1.776942,2
+527,Andrenidae,Andrena arabis,Andrena arabis,1,1
+192,Andrenidae,Andrena argentata,Andrena argentata,7.591083,8
+364,Andrenidae,Andrena asperrima,Andrena asperrima,3.688298,4
+111,Andrenidae,Andrena assimilis,Andrena assimilis,9.463602,9
+528,Andrenidae,Andrena asteris,Andrena asteris,1,1
+529,Andrenidae,Andrena asteroides,Andrena asteroides,1,1
+530,Andrenidae,Andrena astragali,Andrena astragali,1,1
+471,Andrenidae,Andrena balsamorhizae,Andrena balsamorhizae,1.876884,2
+155,Andrenidae,Andrena barbilabris,Andrena barbilabris,8.391719,8
+474,Andrenidae,Andrena beameri,Andrena beameri,1.833333,2
+5,Andrenidae,Andrena bicolor,Andrena bicolor,18.110335,18
+141,Andrenidae,Andrena bimaculata,Andrena bimaculata,8.695272,9
+531,Andrenidae,Andrena biscutella,Andrena biscutella,1,1
+342,Andrenidae,Andrena biskrensis,Andrena biskrensis,3.985921,4
+532,Andrenidae,Andrena blanda,Andrena blanda,1,1
+533,Andrenidae,Andrena boyerella,Andrena boyerella,1,1
+534,Andrenidae,Andrena bradleyi,Andrena bradleyi,1,1
+455,Andrenidae,Andrena brevipalpis,Andrena brevipalpis,1.996885,2
+535,Andrenidae,Andrena bullata,Andrena bullata,1,1
+492,Andrenidae,Andrena caesia,Andrena caesia,1.555556,2
+536,Andrenidae,Andrena canadensis,Andrena canadensis,1,1
+37,Andrenidae,Andrena carlini,Andrena carlini,12.737994,13
+211,Andrenidae,Andrena ceanothi,Andrena ceanothi,6.948806,7
+538,Andrenidae,Andrena chaparralensis,Andrena chaparralensis,1,1
+539,Andrenidae,Andrena chrysopus,Andrena chrysopus,1,1
+166,Andrenidae,Andrena chrysosceles,Andrena chrysosceles,8.157459,8
+38,Andrenidae,Andrena cineraria,Andrena cineraria,12.679539,13
+540,Andrenidae,Andrena cinerea,Andrena cinerea,1,1
+541,Andrenidae,Andrena clarkella,Andrena clarkella,1,1
+216,Andrenidae,Andrena commoda,Andrena commoda,6.806122,7
+542,Andrenidae,Andrena corax,Andrena corax,1,1
+151,Andrenidae,Andrena crataegi,Andrena crataegi,8.461309,8
+543,Andrenidae,Andrena crawfordi,Andrena crawfordi,1,1
+145,Andrenidae,Andrena cressonii,Andrena cressonii,8.611134,9
+544,Andrenidae,Andrena curvungula,Andrena curvungula,1,1
+381,Andrenidae,Andrena decipiens,Andrena decipiens,3,3
+427,Andrenidae,Andrena denticulata,Andrena denticulata,2.116385,2
+182,Andrenidae,Andrena discors,Andrena discors,7.790296,8
+545,Andrenidae,Andrena distans,Andrena distans,1,1
+546,Andrenidae,Andrena distinguenda,Andrena distinguenda,1,1
+547,Andrenidae,Andrena djelfensis,Andrena djelfensis,1,1
+32,Andrenidae,Andrena dorsata,Andrena dorsata,12.858989,13
+548,Andrenidae,Andrena doursana,Andrena doursana,1,1
+549,Andrenidae,Andrena elata,Andrena elata,1,1
+550,Andrenidae,Andrena erigeniae,Andrena erigeniae,1,1
+451,Andrenidae,Andrena erythrogaster,Andrena erythrogaster,1.998422,2
+551,Andrenidae,Andrena fabrella,Andrena fabrella,1,1
+552,Andrenidae,Andrena ferrugineicrus,Andrena ferrugineicrus,1,1
+290,Andrenidae,Andrena flavilabris,Andrena flavilabris,4.999999,5
+28,Andrenidae,Andrena flavipes,Andrena flavipes,13.108437,13
+553,Andrenidae,Andrena florea,Andrena florea,1,1
+554,Andrenidae,Andrena floricola,Andrena floricola,1,1
+89,Andrenidae,Andrena forbesii,Andrena forbesii,10.378846,10
+458,Andrenidae,Andrena frigida,Andrena frigida,1.992494,2
+555,Andrenidae,Andrena fulica,Andrena fulica,1,1
+219,Andrenidae,Andrena fulva,Andrena fulva,6.643529,7
+556,Andrenidae,Andrena fulvago,Andrena fulvago,1,1
+446,Andrenidae,Andrena fulvicornis,Andrena fulvicornis,1.999967,2
+557,Andrenidae,Andrena fulvipennis,Andrena fulvipennis,1,1
+558,Andrenidae,Andrena funerea,Andrena funerea,1,1
+559,Andrenidae,Andrena fuscipes,Andrena fuscipes,1,1
+204,Andrenidae,Andrena fuscosa,Andrena fuscosa,7.165522,7
+450,Andrenidae,Andrena gardineri,Andrena gardineri,1.99891,2
+560,Andrenidae,Andrena gelriae,Andrena gelriae,1,1
+561,Andrenidae,Andrena geranii,Andrena geranii,1,1
+562,Andrenidae,Andrena granulosa,Andrena granulosa,1,1
+91,Andrenidae,Andrena gravida,Andrena gravida,10.310325,10
+44,Andrenidae,Andrena haemorrhoa,Andrena haemorrhoa,12.245116,12
+563,Andrenidae,Andrena hattorfiana,Andrena hattorfiana,1,1
+457,Andrenidae,Andrena haynesi,Andrena haynesi,1.992991,2
+564,Andrenidae,Andrena hedikae,Andrena hedikae,1,1
+565,Andrenidae,Andrena helianthi,Andrena helianthi,1,1
+465,Andrenidae,Andrena helianthiformis,Andrena helianthiformis,1.951424,2
+82,Andrenidae,Andrena helvola,Andrena helvola,10.635905,11
+202,Andrenidae,Andrena hippotes,Andrena hippotes,7.259373,7
+566,Andrenidae,Andrena hirticincta,Andrena hirticincta,1,1
+567,Andrenidae,Andrena humilis,Andrena humilis,1,1
+263,Andrenidae,Andrena imitatrix,Andrena imitatrix,5.631012,6
+568,Andrenidae,Andrena integra,Andrena integra,1,1
+449,Andrenidae,Andrena isocomae,Andrena isocomae,1.999229,2
+330,Andrenidae,Andrena juliana,Andrena juliana,4.066847,4
+154,Andrenidae,Andrena labialis,Andrena labialis,8.422365,8
+109,Andrenidae,Andrena labiata,Andrena labiata,9.497016,9
+569,Andrenidae,Andrena lagopus,Andrena lagopus,1,1
+570,Andrenidae,Andrena lathyri,Andrena lathyri,1,1
+350,Andrenidae,Andrena leptopyga,Andrena leptopyga,3.895122,4
+571,Andrenidae,Andrena leucolippa,Andrena leucolippa,1,1
+479,Andrenidae,Andrena longibarbis,Andrena longibarbis,1.769231,2
+249,Andrenidae,Andrena mandibularis,Andrena mandibularis,5.977284,6
+467,Andrenidae,Andrena melliventris,Andrena melliventris,1.914046,2
+63,Andrenidae,Andrena minutula,Andrena minutula,11.287139,11
+284,Andrenidae,Andrena minutuloides,Andrena minutuloides,5.074918,5
+300,Andrenidae,Andrena miranda,Andrena miranda,4.951424,5
+344,Andrenidae,Andrena miserabilis,Andrena miserabilis,3.963108,4
+572,Andrenidae,Andrena mitis,Andrena mitis,1,1
+573,Andrenidae,Andrena mocsaryi,Andrena mocsaryi,1,1
+411,Andrenidae,Andrena mucida,Andrena mucida,2.70922,3
+425,Andrenidae,Andrena nana,Andrena nana,2.196078,2
+119,Andrenidae,Andrena nasonii,Andrena nasonii,9.262201,9
+118,Andrenidae,Andrena nigriceps,Andrena nigriceps,9.263131,9
+53,Andrenidae,Andrena nigroaenea,Andrena nigroaenea,11.873199,12
+574,Andrenidae,Andrena nigropilosa,Andrena nigropilosa,1,1
+23,Andrenidae,Andrena nitida,Andrena nitida,13.18719,13
+575,Andrenidae,Andrena nitidiuscula,Andrena nitidiuscula,1,1
+576,Andrenidae,Andrena nitidula,Andrena nitidula,1,1
+217,Andrenidae,Andrena nivalis,Andrena nivalis,6.770777,7
+397,Andrenidae,Andrena niveata,Andrena niveata,2.900897,3
+577,Andrenidae,Andrena nubecula,Andrena nubecula,1,1
+241,Andrenidae,Andrena nuda,Andrena nuda,6,6
+430,Andrenidae,Andrena numida,Andrena numida,2,2
+578,Andrenidae,Andrena nycthemera,Andrena nycthemera,1,1
+579,Andrenidae,Andrena orana,Andrena orana,1,1
+502,Andrenidae,Andrena ovatula,Andrena ovatula,1.37037,1
+426,Andrenidae,Andrena oviventris,Andrena oviventris,2.188397,2
+580,Andrenidae,Andrena pallitarsis,Andrena pallitarsis,1,1
+581,Andrenidae,Andrena pandellei,Andrena pandellei,1,1
+582,Andrenidae,Andrena pandosa,Andrena pandosa,1,1
+393,Andrenidae,Andrena panurgina,Andrena panurgina,2.990991,3
+431,Andrenidae,Andrena pauxilla,Andrena pauxilla,2,2
+49,Andrenidae,Andrena perplexa,Andrena perplexa,12,12
+267,Andrenidae,Andrena pilipes,Andrena pilipes,5.540962,6
+583,Andrenidae,Andrena placata,Andrena placata,1,1
+584,Andrenidae,Andrena platyparia,Andrena platyparia,1,1
+585,Andrenidae,Andrena polita,Andrena polita,1,1
+586,Andrenidae,Andrena potentillae,Andrena potentillae,1,1
+481,Andrenidae,Andrena praecox,Andrena praecox,1.726817,2
+70,Andrenidae,Andrena propinqua,Andrena propinqua,11.014504,11
+587,Andrenidae,Andrena proxima,Andrena proxima,1,1
+266,Andrenidae,Andrena ranunculorum,Andrena ranunculorum,5.556337,6
+382,Andrenidae,Andrena robertsonii,Andrena robertsonii,3,3
+343,Andrenidae,Andrena rosae,Andrena rosae,3.970061,4
+506,Andrenidae,Andrena rudbeckiae,Andrena rudbeckiae,1.357143,1
+588,Andrenidae,Andrena ruficrus,Andrena ruficrus,1,1
+589,Andrenidae,Andrena rufizona,Andrena rufizona,1,1
+269,Andrenidae,Andrena rufosignata,Andrena rufosignata,5.453455,5
+68,Andrenidae,Andrena rugosa,Andrena rugosa,11.040361,11
+591,Andrenidae,Andrena sardoa,Andrena sardoa,1,1
+592,Andrenidae,Andrena saxonica,Andrena saxonica,1,1
+62,Andrenidae,Andrena scotica,Andrena scotica,11.373205,11
+331,Andrenidae,Andrena semilaevis,Andrena semilaevis,4.02128,4
+593,Andrenidae,Andrena senecionis,Andrena senecionis,1,1
+478,Andrenidae,Andrena senticulosa,Andrena senticulosa,1.776942,2
+432,Andrenidae,Andrena sigmundi,Andrena sigmundi,2,2
+131,Andrenidae,Andrena simillima,Andrena simillima,8.980198,9
+594,Andrenidae,Andrena simplex,Andrena simplex,1,1
+495,Andrenidae,Andrena sitilae,Andrena sitilae,1.5,2
+201,Andrenidae,Andrena spiraeana,Andrena spiraeana,7.307692,7
+595,Andrenidae,Andrena spolata,Andrena spolata,1,1
+358,Andrenidae,Andrena spreta,Andrena spreta,3.744163,4
+206,Andrenidae,Andrena subopaca,Andrena subopaca,7.05083,7
+596,Andrenidae,Andrena suerinensis,Andrena suerinensis,1,1
+597,Andrenidae,Andrena symphyti,Andrena symphyti,1,1
+48,Andrenidae,Andrena synadelpha,Andrena synadelpha,12.073526,12
+598,Andrenidae,Andrena tarsata,Andrena tarsata,1,1
+599,Andrenidae,Andrena tebessana,Andrena tebessana,1,1
+424,Andrenidae,Andrena tenuistriata,Andrena tenuistriata,2.199727,2
+45,Andrenidae,Andrena thoracica,Andrena thoracica,12.104674,12
+493,Andrenidae,Andrena tonkaworum,Andrena tonkaworum,1.555556,2
+229,Andrenidae,Andrena trimmerana,Andrena trimmerana,6.397289,6
+600,Andrenidae,Andrena tscheki,Andrena tscheki,1,1
+322,Andrenidae,Andrena tuberculifera,Andrena tuberculifera,4.411875,4
+601,Andrenidae,Andrena vaga,Andrena vaga,1,1
+298,Andrenidae,Andrena variabilis,Andrena variabilis,4.963184,5
+326,Andrenidae,Andrena varians,Andrena varians,4.159795,4
+332,Andrenidae,Andrena vaulogeri,Andrena vaulogeri,4,4
+602,Andrenidae,Andrena venerabilis,Andrena venerabilis,1,1
+603,Andrenidae,Andrena ventralis,Andrena ventralis,1,1
+413,Andrenidae,Andrena ventricosa,Andrena ventricosa,2.590423,3
+433,Andrenidae,Andrena verticalis,Andrena verticalis,2,2
+604,Andrenidae,Andrena verucunda,Andrena verucunda,1,1
+507,Andrenidae,Andrena vetula,Andrena vetula,1.344828,1
+75,Andrenidae,Andrena vicina,Andrena vicina,10.877094,11
+434,Andrenidae,Andrena virginiana,Andrena virginiana,2,2
+605,Andrenidae,Andrena viridescens,Andrena viridescens,1,1
+248,Andrenidae,Andrena w-scripta,Andrena w-scripta,5.979048,6
+606,Andrenidae,Andrena wellesleyana,Andrena wellesleyana,1,1
+374,Andrenidae,Andrena wilkella,Andrena wilkella,3.355922,3
+607,Andrenidae,Andrena ziziae,Andrena ziziae,1,1
+608,Andrenidae,Anthemurgus passiflorae,Anthemurgus passiflorae,1,1
+614,Andrenidae,Arhysosage cactorum,Arhysosage cactorum,1,1
+617,Andrenidae,Camptopoeum friesei,Camptopoeum friesei,1,1
+618,Andrenidae,Camptopoeum frontale,Camptopoeum frontale,1,1
+619,Andrenidae,Camptopoeum sacrum,Camptopoeum sacrum,1,1
+647,Andrenidae,Clavipanurgus punctiventris,Clavipanurgus punctiventris,1,1
+694,Andrenidae,Flavipanurgus fuzetus,Flavipanurgus fuzetus,1,1
+695,Andrenidae,Flavipanurgus kastiliensis,Flavipanurgus kastiliensis,1,1
+375,Andrenidae,Flavipanurgus venustus,Flavipanurgus venustus,3.35589,3
+759,Andrenidae,Macrotera optuntiae,Macrotera optuntiae,1,1
+760,Andrenidae,Macrotera texana,Macrotera texana,1,1
+776,Andrenidae,Melitturga clavicornis,Melitturga clavicornis,1,1
+809,Andrenidae,Panurginus albopilosus,Panurginus albopilosus,1,1
+472,Andrenidae,Panurginus herzi,Panurginus herzi,1.847682,2
+194,Andrenidae,Panurginus montanus,Panurginus montanus,7.500101,8
+810,Andrenidae,Panurgus banksianus,Panurgus banksianus,1,1
+811,Andrenidae,Panurgus calcaratus,Panurgus calcaratus,1,1
+812,Andrenidae,Panurgus calceatus,Panurgus calceatus,1,1
+813,Andrenidae,Panurgus canescens,Panurgus canescens,1,1
+814,Andrenidae,Panurgus cephalotes,Panurgus cephalotes,1,1
+815,Andrenidae,Panurgus dentipes,Panurgus dentipes,1,1
+816,Andrenidae,Panurgus maroccanus,Panurgus maroccanus,1,1
+817,Andrenidae,Panurgus perezi,Panurgus perezi,1,1
+821,Andrenidae,Perdita floridensis,Perdita floridensis,1,1
+822,Andrenidae,Perdita octomaculata,Perdita octomaculata,1,1
+830,Andrenidae,Protomeliturga turnerae,Protomeliturga turnerae,1,1
+292,Apidae,Amegilla albigena,Amegilla albigena,4.999429,5
+307,Apidae,Amegilla magnilabris,Amegilla magnilabris,4.815493,5
+519,Apidae,Ancyloscelis gigas,Ancyloscelis gigas,1,1
+245,Apidae,Anthophora aestivalis,Anthophora aestivalis,5.992457,6
+152,Apidae,Anthophora atroalba,Anthophora atroalba,8.439701,8
+336,Apidae,Anthophora bimaculata,Anthophora bimaculata,3.999977,4
+120,Apidae,Anthophora diversipes,Anthophora diversipes,9.239055,9
+36,Apidae,Bombus affinis,Bombus affinis,12.757107,13
+260,Apidae,Bombus alagesianus,Bombus alagesianus,5.696035,6
+88,Apidae,Bombus alpinus,Bombus alpinus,10.39851,10
+164,Apidae,Bombus argillaceus,Bombus argillaceus,8.166658,8
+181,Apidae,Bombus armeniacus,Bombus armeniacus,7.799167,8
+253,Apidae,Bombus auricomus,Bombus auricomus,5.79703,6
+156,Apidae,Bombus balteatus,Bombus balteatus,8.383321,8
+9,Apidae,Bombus bimaculatus,Bombus bimaculatus,15.56828,16
+278,Apidae,Bombus bisiculus,Bombus bisiculus,5.158765,5
+104,Apidae,Bombus borealis,Bombus borealis,9.733432,10
+223,Apidae,Bombus brodmannicus,Bombus brodmannicus,6.578768,7
+262,Apidae,Bombus confusus,Bombus confusus,5.656354,6
+121,Apidae,Bombus cullumanus,Bombus cullumanus,9.213691,9
+207,Apidae,Bombus distinguendus,Bombus distinguendus,7.046843,7
+113,Apidae,Bombus fervidus,Bombus fervidus,9.405945,9
+259,Apidae,Bombus fragrans,Bombus fragrans,5.698174,6
+189,Apidae,Bombus frigidus,Bombus frigidus,7.691232,8
+10,Apidae,Bombus griseocollis,Bombus griseocollis,15.365761,15
+186,Apidae,Bombus haematurus,Bombus haematurus,7.727186,8
+373,Apidae,Bombus handlirschianus,Bombus handlirschianus,3.383353,3
+56,Apidae,Bombus hortorum,Bombus hortorum,11.650676,12
+110,Apidae,Bombus humilis,Bombus humilis,9.471005,9
+15,Apidae,Bombus hypnorum,Bombus hypnorum,14.478694,14
+8,Apidae,Bombus impatiens,Bombus impatiens,16.549761,17
+134,Apidae,Bombus incertus,Bombus incertus,8.816431,9
+25,Apidae,Bombus lapidarius,Bombus lapidarius,13.152486,13
+232,Apidae,Bombus lapponicus,Bombus lapponicus,6.268865,6
+123,Apidae,Bombus lucorum,Bombus lucorum,9.198417,9
+236,Apidae,Bombus melanurus,Bombus melanurus,6.233158,6
+162,Apidae,Bombus mendax,Bombus mendax,8.236449,8
+142,Apidae,Bombus mesomelas,Bombus mesomelas,8.693318,9
+149,Apidae,Bombus monticola,Bombus monticola,8.502932,9
+303,Apidae,Bombus mucidus,Bombus mucidus,4.885455,5
+167,Apidae,Bombus muscorum,Bombus muscorum,8.014283,8
+265,Apidae,Bombus niveatus,Bombus niveatus,5.559572,6
+11,Apidae,Bombus pascuorum,Bombus pascuorum,15.327851,15
+254,Apidae,Bombus pensylvanicus,Bombus pensylvanicus,5.786411,6
+19,Apidae,Bombus perplexus,Bombus perplexus,13.657537,14
+114,Apidae,Bombus pomorum,Bombus pomorum,9.373833,9
+233,Apidae,Bombus portschinskyi,Bombus portschinskyi,6.260174,6
+1,Apidae,Bombus pratorum,Bombus pratorum,20.230205,20
+74,Apidae,Bombus pyrenaeus,Bombus pyrenaeus,10.917194,11
+85,Apidae,Bombus ruderarius,Bombus ruderarius,10.510964,11
+115,Apidae,Bombus ruderatus,Bombus ruderatus,9.356024,9
+29,Apidae,Bombus rufocinctus,Bombus rufocinctus,13.087611,13
+116,Apidae,Bombus sichelii,Bombus sichelii,9.346998,9
+47,Apidae,Bombus soroeensis,Bombus soroeensis,12.088426,12
+246,Apidae,Bombus sporadicus,Bombus sporadicus,5.990749,6
+215,Apidae,Bombus subterraneus,Bombus subterraneus,6.825874,7
+108,Apidae,Bombus sylvarum,Bombus sylvarum,9.528455,10
+57,Apidae,Bombus ternarius,Bombus ternarius,11.562389,12
+3,Apidae,Bombus terrestris,Bombus terrestris,18.906939,19
+21,Apidae,Bombus terricola,Bombus terricola,13.327641,13
+102,Apidae,Bombus vagans,Bombus vagans,9.757004,10
+143,Apidae,Bombus veteranus,Bombus veteranus,8.677551,9
+146,Apidae,Bombus wurflenii,Bombus wurflenii,8.563689,9
+261,Apidae,Bombus zonatus,Bombus zonatus,5.694876,6
+83,Apidae,Centris nitida,Centris nitida,10.551193,11
+126,Apidae,Ceratina calcarata,Ceratina calcarata,9.100156,9
+98,Apidae,Ceratina dupla,Ceratina dupla,9.888864,10
+188,Apidae,Ceratina mikmaqi,Ceratina mikmaqi,7.716582,8
+235,Apidae,Chalepogenus cocuccii,Chalepogenus cocuccii,6.249686,6
+671,Apidae,Diadasia angusticeps,Diadasia angusticeps,1,1
+345,Apidae,Diadasia diminuta,Diadasia diminuta,3.962704,4
+672,Apidae,Diadasia enavata,Diadasia enavata,1,1
+673,Apidae,Diadasia laticauda,Diadasia laticauda,1,1
+674,Apidae,Diadasia nigrifrons,Diadasia nigrifrons,1,1
+675,Apidae,Diadasia ochracea,Diadasia ochracea,1,1
+676,Apidae,Diadasia sphaeralcearum,Diadasia sphaeralcearum,1,1
+677,Apidae,Diadasia tropicalis,Diadasia tropicalis,1,1
+678,Apidae,Diadasia vallicola,Diadasia vallicola,1,1
+679,Apidae,Diadasina riparia,Diadasina riparia,1,1
+389,Apidae,Eucera caspica,Eucera caspica,2.999964,3
+178,Apidae,Eucera clypeata,Eucera clypeata,7.897012,8
+687,Apidae,Eucera cypria,Eucera cypria,1,1
+456,Apidae,Eucera dafnii,Eucera dafnii,1.995941,2
+160,Apidae,Eucera elongatula,Eucera elongatula,8.271956,8
+452,Apidae,Eucera eucnemidea,Eucera eucnemidea,1.998331,2
+688,Apidae,Eucera furfurea,Eucera furfurea,1,1
+689,Apidae,Eucera interrupta,Eucera interrupta,1,1
+414,Apidae,Eucera longicornis,Eucera longicornis,2.58302,3
+416,Apidae,Eucera nigrescens,Eucera nigrescens,2.497512,2
+690,Apidae,Eucera nigrifacies,Eucera nigrifacies,1,1
+368,Apidae,Eucera nigrilabris,Eucera nigrilabris,3.588234,4
+461,Apidae,Eucera notata,Eucera notata,1.986132,2
+380,Apidae,Eucera pici,Eucera pici,3.088239,3
+448,Apidae,Eucera proxima,Eucera proxima,1.999828,2
+691,Apidae,Eucera taurica,Eucera taurica,1,1
+158,Apidae,Euglossa cordata,Euglossa cordata,8.376538,8
+255,Apidae,Eulaema nigrita,Eulaema nigrita,5.776705,6
+2,Apidae,Melipona mimetica,Melipona mimetica,20.206686,20
+766,Apidae,Melissodes desponsus,Melissodes desponsus,1,1
+466,Apidae,Melissodes illatus,Melissodes illatus,1.948122,2
+767,Apidae,Melissodes subillatus,Melissodes subillatus,1,1
+768,Apidae,Melitoma osmoides,Melitoma osmoides,1,1
+769,Apidae,Melitoma segmentaria,Melitoma segmentaria,1,1
+770,Apidae,Melitomella murihirta,Melitomella murihirta,1,1
+818,Apidae,Peponapis michelbacherorum,Peponapis michelbacherorum,1,1
+819,Apidae,Peponapis pruinosa,Peponapis pruinosa,1,1
+820,Apidae,Peponapis utahensis,Peponapis utahensis,1,1
+835,Apidae,Ptilothrix bombiformis,Ptilothrix bombiformis,1,1
+836,Apidae,Ptilothrix plumata,Ptilothrix plumata,1,1
+4,Apidae,Scaptotrigona spp.,Scaptotrigona spp.,18.291087,18
+848,Apidae,Tetralonia cinctella,Tetralonia cinctella,1,1
+849,Apidae,Tetralonia dentata,Tetralonia dentata,1,1
+850,Apidae,Tetralonia iberica,Tetralonia iberica,1,1
+851,Apidae,Tetralonia julliani,Tetralonia julliani,1,1
+852,Apidae,Tetralonia nana,Tetralonia nana,1,1
+853,Apidae,Tetralonia salicariae,Tetralonia salicariae,1,1
+856,Apidae,Xenoglossa angustior,Xenoglossa angustior,1,1
+857,Apidae,Xenoglossa crassidentata,Xenoglossa crassidentata,1,1
+858,Apidae,Xenoglossa patricia,Xenoglossa patricia,1,1
+859,Apidae,Xenoglossa strenua,Xenoglossa strenua,1,1
+860,Apidae,Xenoglossoides eriocarpi,Xenoglossoides eriocarpi,1,1
+176,Apidae,Xylocopa virginica,Xylocopa virginica,7.942681,8
+514,Colletidae,Actenosigynes mantiqueirensis,Actenosigynes mantiqueirensis,1,1
+615,Colletidae,Bicolletes indigoticus,Bicolletes indigoticus,1,1
+616,Colletidae,Bicolletes pampeana,Bicolletes pampeana,1,1
+459,Colletidae,Colletes abeillei,Colletes abeillei,1.988972,2
+340,Colletidae,Colletes acutiformis,Colletes acutiformis,3.994455,4
+348,Colletidae,Colletes acutus,Colletes acutus,3.912804,4
+258,Colletidae,Colletes albomaculatus,Colletes albomaculatus,5.750953,6
+648,Colletidae,Colletes americanus,Colletes americanus,1,1
+649,Colletidae,Colletes anchusae,Colletes anchusae,1,1
+177,Colletidae,Colletes brevigena,Colletes brevigena,7.897349,8
+359,Colletidae,Colletes capensis,Colletes capensis,3.740718,4
+383,Colletidae,Colletes carinatus,Colletes carinatus,3,3
+500,Colletidae,Colletes cariniger,Colletes cariniger,1.4,1
+294,Colletidae,Colletes caskanus,Colletes caskanus,4.994055,5
+435,Colletidae,Colletes collaris,Colletes collaris,2,2
+650,Colletidae,Colletes compactus,Colletes compactus,1,1
+128,Colletidae,Colletes cunicularius,Colletes cunicularius,9.039784,9
+651,Colletidae,Colletes daviesanus,Colletes daviesanus,1,1
+652,Colletidae,Colletes dinizi,Colletes dinizi,1,1
+341,Colletidae,Colletes dorsalis,Colletes dorsalis,3.992828,4
+136,Colletidae,Colletes dusmeti,Colletes dusmeti,8.756259,9
+51,Colletidae,Colletes eous,Colletes eous,11.959893,12
+436,Colletidae,Colletes escalerai,Colletes escalerai,2,2
+210,Colletidae,Colletes floralis,Colletes floralis,6.994813,7
+653,Colletidae,Colletes fodiens,Colletes fodiens,1,1
+437,Colletidae,Colletes formosus,Colletes formosus,2,2
+420,Colletidae,Colletes foveolaris,Colletes foveolaris,2.27027,2
+319,Colletidae,Colletes gallicus,Colletes gallicus,4.501121,5
+654,Colletidae,Colletes graeffei,Colletes graeffei,1,1
+405,Colletidae,Colletes halophilus,Colletes halophilus,2.842946,3
+309,Colletidae,Colletes hederae,Colletes hederae,4.780439,5
+370,Colletidae,Colletes hethiticus,Colletes hethiticus,3.552446,4
+655,Colletidae,Colletes hylaeiformis,Colletes hylaeiformis,1,1
+153,Colletidae,Colletes impunctatus,Colletes impunctatus,8.436838,8
+304,Colletidae,Colletes inaequalis,Colletes inaequalis,4.857999,5
+656,Colletidae,Colletes inexpectatus,Colletes inexpectatus,1,1
+287,Colletidae,Colletes kincaidii,Colletes kincaidii,5,5
+334,Colletidae,Colletes lacunatus,Colletes lacunatus,4,4
+404,Colletidae,Colletes ligatus,Colletes ligatus,2.846049,3
+148,Colletidae,Colletes maidli,Colletes maidli,8.522361,9
+205,Colletidae,Colletes marginatus,Colletes marginatus,7.139522,7
+460,Colletidae,Colletes meyeri,Colletes meyeri,1.988633,2
+657,Colletidae,Colletes mlokossewiczi,Colletes mlokossewiczi,1,1
+273,Colletidae,Colletes nanus,Colletes nanus,5.414199,5
+658,Colletidae,Colletes nasutus,Colletes nasutus,1,1
+73,Colletidae,Colletes nigricans,Colletes nigricans,10.969805,11
+438,Colletidae,Colletes noskiewiczi,Colletes noskiewiczi,2,2
+94,Colletidae,Colletes perezi,Colletes perezi,10.027511,10
+659,Colletidae,Colletes petalostemonis,Colletes petalostemonis,1,1
+351,Colletidae,Colletes pulchellus,Colletes pulchellus,3.8742,4
+299,Colletidae,Colletes pumilus,Colletes pumilus,4.961428,5
+660,Colletidae,Colletes punctatus,Colletes punctatus,1,1
+337,Colletidae,Colletes rufotibialis,Colletes rufotibialis,3.999926,4
+314,Colletidae,Colletes schmidi,Colletes schmidi,4.666565,5
+468,Colletidae,Colletes sierrensis,Colletes sierrensis,1.905596,2
+355,Colletidae,Colletes similis,Colletes similis,3.822413,4
+661,Colletidae,Colletes simulans,Colletes simulans,1,1
+367,Colletidae,Colletes succinctus,Colletes succinctus,3.62499,4
+208,Colletidae,Colletes thoracicus,Colletes thoracicus,6.999806,7
+662,Colletidae,Colletes tuberculatus,Colletes tuberculatus,1,1
+664,Colletidae,Colletes wolfi,Colletes wolfi,1,1
+692,Colletidae,Euryglossa aureophila,Euryglossa aureophila,1,1
+693,Colletidae,Euryglossa morrisoni,Euryglossa morrisoni,1,1
+87,Colletidae,Hyaleus annulatus,Hyaleus annulatus,10.409884,10
+52,Colletidae,Hylaeus alpinus,Hylaeus alpinus,11.938756,12
+40,Colletidae,Hylaeus angustatus,Hylaeus angustatus,12.662449,13
+264,Colletidae,Hylaeus brevicornis,Hylaeus brevicornis,5.626674,6
+423,Colletidae,Hylaeus clypearis,Hylaeus clypearis,2.20385,2
+18,Colletidae,Hylaeus communis,Hylaeus communis,14.118476,14
+214,Colletidae,Hylaeus confusus,Hylaeus confusus,6.852367,7
+366,Colletidae,Hylaeus cornutus,Hylaeus cornutus,3.637768,4
+293,Colletidae,Hylaeus crassanus,Hylaeus crassanus,4.995405,5
+80,Colletidae,Hylaeus dilatatus,Hylaeus dilatatus,10.777477,11
+412,Colletidae,Hylaeus duckei,Hylaeus duckei,2.608908,3
+59,Colletidae,Hylaeus gibbus,Hylaeus gibbus,11.521577,12
+180,Colletidae,Hylaeus glacialis,Hylaeus glacialis,7.800432,8
+378,Colletidae,Hylaeus gredleri,Hylaeus gredleri,3.203516,3
+16,Colletidae,Hylaeus hyalinatus,Hylaeus hyalinatus,14.32135,14
+58,Colletidae,Hylaeus incongruus,Hylaeus incongruus,11.558189,12
+399,Colletidae,Hylaeus kahri,Hylaeus kahri,2.869761,3
+179,Colletidae,Hylaeus leptocephalus,Hylaeus leptocephalus,7.879999,8
+69,Colletidae,Hylaeus moricei,Hylaeus moricei,11.034432,11
+363,Colletidae,Hylaeus nigritus,Hylaeus nigritus,3.693674,4
+72,Colletidae,Hylaeus nivalis,Hylaeus nivalis,10.983803,11
+238,Colletidae,Hylaeus paulus,Hylaeus paulus,6.073621,6
+125,Colletidae,Hylaeus pectoralis,Hylaeus pectoralis,9.127059,9
+279,Colletidae,Hylaeus pfankuchi,Hylaeus pfankuchi,5.157764,5
+137,Colletidae,Hylaeus pictipes,Hylaeus pictipes,8.731807,9
+742,Colletidae,Hylaeus pilosulus,Hylaeus pilosulus,1,1
+244,Colletidae,Hylaeus punctatissimus,Hylaeus punctatissimus,5.993617,6
+407,Colletidae,Hylaeus punctatissimus,Hylaeus punctatissimus,2.814039,3
+317,Colletidae,Hylaeus rinki,Hylaeus rinki,4.578768,5
+743,Colletidae,Hylaeus signatus,Hylaeus signatus,1,1
+476,Colletidae,Hylaeus sinuatus,Hylaeus sinuatus,1.804454,2
+744,Colletidae,Hylaeus styriacus,Hylaeus styriacus,1,1
+376,Colletidae,Hylaeus taeniolatus,Hylaeus taeniolatus,3.301992,3
+745,Colletidae,Hylaeus tyrolensis,Hylaeus tyrolensis,1,1
+231,Colletidae,Hylaeus variegatus,Hylaeus variegatus,6.303578,6
+829,Colletidae,Protodiscelis palpalis,Protodiscelis palpalis,1,1
+349,Colletidae,Scrapter niger,Scrapter niger,3.91165,4
+841,Colletidae,Scrapter nitidus,Scrapter nitidus,1,1
+212,Halictidae,Agapostemon sericeus,Agapostemon sericeus,6.931812,7
+305,Halictidae,Agapostemon virescens,Agapostemon virescens,4.826446,5
+77,Halictidae,Augochlora pura,Augochlora pura,10.820338,11
+34,Halictidae,Augochlorella aurata,Augochlorella aurata,12.81581,13
+625,Halictidae,Ceblurgus longipalpis,Ceblurgus longipalpis,1,1
+681,Halictidae,Dieunomia heteropoda,Dieunomia heteropoda,1,1
+239,Halictidae,Dufourea alpina,Dufourea alpina,6.046502,6
+682,Halictidae,Dufourea dentiventris,Dufourea dentiventris,1,1
+683,Halictidae,Dufourea halictula,Dufourea halictula,1,1
+684,Halictidae,Dufourea inermis,Dufourea inermis,1,1
+685,Halictidae,Dufourea minuta,Dufourea minuta,1,1
+686,Halictidae,Dufourea monardae,Dufourea monardae,1,1
+129,Halictidae,Dufourea paradoxa,Dufourea paradoxa,9.008189,9
+33,Halictidae,Halictus confusus,Halictus confusus,12.823909,13
+50,Halictidae,Halictus crenicornis,Halictus crenicornis,11.999405,12
+410,Halictidae,Halictus ligatus,Halictus ligatus,2.760929,3
+224,Halictidae,Halictus maculatus,Halictus maculatus,6.538461,7
+289,Halictidae,Halictus pollinosus,Halictus pollinosus,5,5
+286,Halictidae,Halictus quadricinctus,Halictus quadricinctus,5.011414,5
+22,Halictidae,Halictus rubicundus,Halictus rubicundus,13.221802,13
+328,Halictidae,Halictus scabiosae,Halictus scabiosae,4.11294,4
+78,Halictidae,Halictus subauratus,Halictus subauratus,10.810144,11
+27,Halictidae,Halictus tumulorum,Halictus tumulorum,13.113593,13
+105,Halictidae,Lasioglossum acuminatum,Lasioglossum acuminatum,9.711108,10
+173,Halictidae,Lasioglossum albipes,Lasioglossum albipes,7.995485,8
+221,Halictidae,Lasioglossum albocinctum,Lasioglossum albocinctum,6.611377,7
+243,Halictidae,Lasioglossum anomalum,Lasioglossum anomalum,5.999989,6
+316,Halictidae,Lasioglossum bimaculatum,Lasioglossum bimaculatum,4.61322,5
+429,Halictidae,Lasioglossum brevicorne,Lasioglossum brevicorne,2.006831,2
+17,Halictidae,Lasioglossum calceatum,Lasioglossum calceatum,14.296803,14
+161,Halictidae,Lasioglossum cinctipes,Lasioglossum cinctipes,8.245676,8
+159,Halictidae,Lasioglossum coriaceum,Lasioglossum coriaceum,8.277221,8
+475,Halictidae,Lasioglossum corvinum,Lasioglossum corvinum,1.833333,2
+403,Halictidae,Lasioglossum costulatum,Lasioglossum costulatum,2.848182,3
+30,Halictidae,Lasioglossum cressonii,Lasioglossum cressonii,13.038219,13
+7,Halictidae,Lasioglossum cupromicans,Lasioglossum cupromicans,16.688067,17
+356,Halictidae,Lasioglossum discum,Lasioglossum discum,3.817007,4
+144,Halictidae,Lasioglossum euboeense,Lasioglossum euboeense,8.654125,9
+360,Halictidae,Lasioglossum foxii,Lasioglossum foxii,3.714286,4
+163,Halictidae,Lasioglossum fulvicorne,Lasioglossum fulvicorne,8.195766,8
+281,Halictidae,Lasioglossum fynbosensis,Lasioglossum fynbosensis,5.119945,5
+96,Halictidae,Lasioglossum glabriusculum,Lasioglossum glabriusculum,9.9748,10
+61,Halictidae,Lasioglossum hitchensi,Lasioglossum hitchensi,11.382839,11
+106,Halictidae,Lasioglossum imitatum,Lasioglossum imitatum,9.6741,10
+338,Halictidae,Lasioglossum immunitum,Lasioglossum immunitum,3.999896,4
+209,Halictidae,Lasioglossum intermedium,Lasioglossum intermedium,6.997842,7
+81,Halictidae,Lasioglossum interruptum,Lasioglossum interruptum,10.761867,11
+42,Halictidae,Lasioglossum laevigatum,Lasioglossum laevigatum,12.433152,12
+170,Halictidae,Lasioglossum laevissimum,Lasioglossum laevissimum,7.99972,8
+12,Halictidae,Lasioglossum laticeps,Lasioglossum laticeps,15.158611,15
+312,Halictidae,Lasioglossum lativentre,Lasioglossum lativentre,4.689348,5
+127,Halictidae,Lasioglossum leucocomum,Lasioglossum leucocomum,9.091982,9
+218,Halictidae,Lasioglossum leucopus,Lasioglossum leucopus,6.652891,7
+283,Halictidae,Lasioglossum leucozonium,Lasioglossum leucozonium,5.087538,5
+55,Halictidae,Lasioglossum lineatulum,Lasioglossum lineatulum,11.752153,12
+79,Halictidae,Lasioglossum lissonotum,Lasioglossum lissonotum,10.797518,11
+749,Halictidae,Lasioglossum lustrans,Lasioglossum lustrans,1,1
+257,Halictidae,Lasioglossum macoupinense,Lasioglossum macoupinense,5.752271,6
+84,Halictidae,Lasioglossum malachurum,Lasioglossum malachurum,10.512934,11
+14,Halictidae,Lasioglossum mediterraneum,Lasioglossum mediterraneum,14.931701,15
+169,Halictidae,Lasioglossum monstrificum,Lasioglossum monstrificum,8,8
+6,Halictidae,Lasioglossum morio,Lasioglossum morio,16.763503,17
+318,Halictidae,Lasioglossum nigripes,Lasioglossum nigripes,4.517947,5
+97,Halictidae,Lasioglossum paradmirandum,Lasioglossum paradmirandum,9.890367,10
+172,Halictidae,Lasioglossum paraforbesii,Lasioglossum paraforbesii,7.995977,8
+64,Halictidae,Lasioglossum parvulum,Lasioglossum parvulum,11.20786,11
+133,Halictidae,Lasioglossum pauperatum,Lasioglossum pauperatum,8.900153,9
+112,Halictidae,Lasioglossum pauxillum,Lasioglossum pauxillum,9.426275,9
+93,Halictidae,Lasioglossum pectorale,Lasioglossum pectorale,10.141116,10
+226,Halictidae,Lasioglossum perpunctatum,Lasioglossum perpunctatum,6.5,7
+39,Halictidae,Lasioglossum pilosum,Lasioglossum pilosum,12.677564,13
+313,Halictidae,Lasioglossum prasinum,Lasioglossum prasinum,4.671139,5
+252,Halictidae,Lasioglossum punctatissimum,Lasioglossum punctatissimum,5.900901,6
+409,Halictidae,Lasioglossum puncticolle,Lasioglossum puncticolle,2.763836,3
+130,Halictidae,Lasioglossum quebecense,Lasioglossum quebecense,8.997674,9
+71,Halictidae,Lasioglossum tricinctum,Lasioglossum tricinctum,10.995083,11
+135,Halictidae,Lasioglossum versans,Lasioglossum versans,8.769231,9
+41,Halictidae,Lasioglossum versatum,Lasioglossum versatum,12.559941,13
+494,Halictidae,Lasioglossum villosulum,Lasioglossum villosulum,1.521542,2
+92,Halictidae,Lasioglossum zephyrum,Lasioglossum zephyrum,10.289954,10
+101,Halictidae,Lasioglossum zonulum,Lasioglossum zonulum,9.817409,10
+751,Halictidae,Lipotriches cinerascens,Lipotriches cinerascens,1,1
+752,Halictidae,Lipotriches cribrosa,Lipotriches cribrosa,1,1
+753,Halictidae,Lipotriches hylaeoides,Lipotriches hylaeoides,1,1
+754,Halictidae,Lipotriches tanganyicensis,Lipotriches tanganyicensis,1,1
+297,Halictidae,Meganomia binghami,Meganomia binghami,4.96546,5
+54,Halictidae,Nomiapis diversipes,Nomiapis diversipes,11.796478,12
+95,Halictidae,Nomiapis paulyi,Nomiapis paulyi,10,10
+361,Halictidae,Patellapis communis,Patellapis communis,3.699109,4
+837,Halictidae,Rhopitoides canus,Rhopitoides canus,1,1
+838,Halictidae,Rophites algirus,Rophites algirus,1,1
+839,Halictidae,Rophites quinquespinosus,Rophites quinquespinosus,1,1
+846,Halictidae,Systropha curvicornis,Systropha curvicornis,1,1
+847,Halictidae,Systropha planidens,Systropha planidens,1,1
+515,Megachilidae,Afranthidium alternans,Afranthidium alternans,1,1
+516,Megachilidae,Afranthidium carduele,Afranthidium carduele,1,1
+517,Megachilidae,Afranthidium pusillum,Afranthidium pusillum,1,1
+518,Megachilidae,Afranthidium schulthessi,Afranthidium schulthessi,1,1
+320,Megachilidae,Anthidiellum breviusculum,Anthidiellum breviusculum,4.419379,4
+76,Megachilidae,Anthidiellum strigatum,Anthidiellum strigatum,10.82089,11
+323,Megachilidae,Anthidiellum troodicum,Anthidiellum troodicum,4.320919,4
+421,Megachilidae,Anthidium anguliventre,Anthidium anguliventre,2.251256,2
+174,Megachilidae,Anthidium auritum,Anthidium auritum,7.962428,8
+213,Megachilidae,Anthidium cingulatum,Anthidium cingulatum,6.900983,7
+346,Megachilidae,Anthidium dalmaticum,Anthidium dalmaticum,3.961587,4
+401,Megachilidae,Anthidium diadema,Anthidium diadema,2.855831,3
+242,Megachilidae,Anthidium echinatum,Anthidium echinatum,5.999995,6
+124,Megachilidae,Anthidium florentinum,Anthidium florentinum,9.152594,9
+352,Megachilidae,Anthidium loti,Anthidium loti,3.853292,4
+609,Megachilidae,Anthidium luctuosum,Anthidium luctuosum,1,1
+308,Megachilidae,Anthidium manicatum,Anthidium manicatum,4.794862,5
+509,Megachilidae,Anthidium montanum,Anthidium montanum,1.285714,1
+230,Megachilidae,Anthidium oblongatum,Anthidium oblongatum,6.349038,6
+256,Megachilidae,Anthidium punctatum,Anthidium punctatum,5.764651,6
+200,Megachilidae,Anthidium septemspinosum,Anthidium septemspinosum,7.320688,7
+610,Megachilidae,Anthidium spiniventre,Anthidium spiniventre,1,1
+272,Megachilidae,Anthidium taeniatum,Anthidium taeniatum,5.415954,5
+611,Megachilidae,Anthidium tesselatum,Anthidium tesselatum,1,1
+295,Megachilidae,Anthidium undulatum,Anthidium undulatum,4.980436,5
+612,Megachilidae,Anthidium waltlii,Anthidium waltlii,1,1
+613,Megachilidae,Anthidium wüstneii,Anthidium wüstneii,1,1
+626,Megachilidae,Chelostoma aureocinctum,Chelostoma aureocinctum,1,1
+627,Megachilidae,Chelostoma californicum,Chelostoma californicum,1,1
+628,Megachilidae,Chelostoma campanularum,Chelostoma campanularum,1,1
+629,Megachilidae,Chelostoma carinulum,Chelostoma carinulum,1,1
+630,Megachilidae,Chelostoma cockrelli,Chelostoma cockrelli,1,1
+510,Megachilidae,Chelostoma diodon,Chelostoma diodon,1.277778,1
+631,Megachilidae,Chelostoma distinctum,Chelostoma distinctum,1,1
+408,Megachilidae,Chelostoma edentulum,Chelostoma edentulum,2.813829,3
+632,Megachilidae,Chelostoma emarginatum,Chelostoma emarginatum,1,1
+633,Megachilidae,Chelostoma florisomne,Chelostoma florisomne,1,1
+634,Megachilidae,Chelostoma foveolatum,Chelostoma foveolatum,1,1
+635,Megachilidae,Chelostoma garrulum,Chelostoma garrulum,1,1
+636,Megachilidae,Chelostoma grande,Chelostoma grande,1,1
+637,Megachilidae,Chelostoma hellenicum,Chelostoma hellenicum,1,1
+454,Megachilidae,Chelostoma incisulum,Chelostoma incisulum,1.997739,2
+638,Megachilidae,Chelostoma laticaudum,Chelostoma laticaudum,1,1
+388,Megachilidae,Chelostoma minutum,Chelostoma minutum,2.999964,3
+639,Megachilidae,Chelostoma mocsaryi,Chelostoma mocsaryi,1,1
+640,Megachilidae,Chelostoma nasutum,Chelostoma nasutum,1,1
+641,Megachilidae,Chelostoma phaceliae,Chelostoma phaceliae,1,1
+642,Megachilidae,Chelostoma philadelphi,Chelostoma philadelphi,1,1
+643,Megachilidae,Chelostoma rapunculi,Chelostoma rapunculi,1,1
+644,Megachilidae,Chelostoma styriacum,Chelostoma styriacum,1,1
+645,Megachilidae,Chelostoma transversum,Chelostoma transversum,1,1
+646,Megachilidae,Chelostoma ventrale,Chelostoma ventrale,1,1
+680,Megachilidae,Dianthidium simile,Dianthidium simile,1,1
+165,Megachilidae,Eoanthidium clypeare,Eoanthidium clypeare,8.16094,8
+107,Megachilidae,Eoanthidium insulare,Eoanthidium insulare,9.659714,10
+696,Megachilidae,Haetosmia circumventa,Haetosmia circumventa,1,1
+697,Megachilidae,Haetosmia ethiopiensis,Haetosmia ethiopiensis,1,1
+698,Megachilidae,Haetosmia vechti,Haetosmia vechti,1,1
+335,Megachilidae,Heriades carinata,Heriades carinata,4,4
+699,Megachilidae,Heriades crenulata,Heriades crenulata,1,1
+700,Megachilidae,Heriades rubicola,Heriades rubicola,1,1
+701,Megachilidae,Heriades truncorum,Heriades truncorum,1,1
+702,Megachilidae,Hofferia mauritanica,Hofferia mauritanica,1,1
+703,Megachilidae,Hofferia schmiedeknechti,Hofferia schmiedeknechti,1,1
+736,Megachilidae,Hoplitis cristatula,Hoplitis cristatula,1,1
+737,Megachilidae,Hoplitis dalmatica,Hoplitis dalmatica,1,1
+738,Megachilidae,Hoplitis maritima,Hoplitis maritima,1,1
+739,Megachilidae,Hoplitis mitis,Hoplitis mitis,1,1
+441,Megachilidae,Hoplitis pilosifrons,Hoplitis pilosifrons,2,2
+740,Megachilidae,Hoplitis praestans,Hoplitis praestans,1,1
+442,Megachilidae,Hoplitis prazi,Hoplitis prazi,2,2
+741,Megachilidae,Hoplitis ruficornis,Hoplitis ruficornis,1,1
+385,Megachilidae,Icteranthidium afrum,Icteranthidium afrum,3,3
+490,Megachilidae,Icteranthidium cimbiciforme,Icteranthidium cimbiciforme,1.571531,2
+746,Megachilidae,Icteranthidium fedtschenkoi,Icteranthidium fedtschenkoi,1,1
+31,Megachilidae,Icteranthidium ferrugineum,Icteranthidium ferrugineum,12.918152,13
+60,Megachilidae,Icteranthidium grohmanni,Icteranthidium grohmanni,11.495736,11
+190,Megachilidae,Icteranthidium laterale,Icteranthidium laterale,7.62066,8
+86,Megachilidae,Icteranthidium limbiferum,Icteranthidium limbiferum,10.411147,10
+755,Megachilidae,Lithurgus chrysurus,Lithurgus chrysurus,1,1
+234,Megachilidae,Megachile argentata,Megachile argentata,6.257335,6
+67,Megachilidae,Megachile centuncularis,Megachile centuncularis,11.064951,11
+763,Megachilidae,Megachile ericetorum,Megachile ericetorum,1,1
+325,Megachilidae,Megachile latimanus,Megachile latimanus,4.233578,4
+311,Megachilidae,Megachile maritima,Megachile maritima,4.714286,5
+386,Megachilidae,Megachile mendica,Megachile mendica,3,3
+764,Megachilidae,Megachile nigriventris,Megachile nigriventris,1,1
+765,Megachilidae,Megachile pugnata,Megachile pugnata,1,1
+398,Megachilidae,Megachile rotundata,Megachile rotundata,2.871871,3
+296,Megachilidae,Osmia atriventris,Osmia atriventris,4.975404,5
+798,Megachilidae,Osmia brevicornis,Osmia brevicornis,1,1
+799,Megachilidae,Osmia brevis,Osmia brevis,1,1
+271,Megachilidae,Osmia bucephala,Osmia bucephala,5.41844,5
+800,Megachilidae,Osmia californica,Osmia californica,1,1
+357,Megachilidae,Osmia conjuncta,Osmia conjuncta,3.766818,4
+801,Megachilidae,Osmia gallarum,Osmia gallarum,1,1
+802,Megachilidae,Osmia laticeps,Osmia laticeps,1,1
+803,Megachilidae,Osmia leaiana,Osmia leaiana,1,1
+804,Megachilidae,Osmia montana,Osmia montana,1,1
+805,Megachilidae,Osmia niveata,Osmia niveata,1,1
+197,Megachilidae,Osmia pumila,Osmia pumila,7.465552,7
+806,Megachilidae,Osmia sculleini,Osmia sculleini,1,1
+807,Megachilidae,Osmia(Hoplosmia) scutellaris,Osmia scutellaris,1,1
+808,Megachilidae,Othinosmia schultzei,Othinosmia schultzei,1,1
+823,Megachilidae,Proteriades bidenticauda,Proteriades bidenticauda,1,1
+824,Megachilidae,Proteriades bullifacies,Proteriades bullifacies,1,1
+825,Megachilidae,Proteriades mojavensis,Proteriades mojavensis,1,1
+826,Megachilidae,Proteriades plagiostoma,Proteriades plagiostoma,1,1
+827,Megachilidae,Proteriades shoshone,Proteriades shoshone,1,1
+828,Megachilidae,Proteriades zuni,Proteriades zuni,1,1
+831,Megachilidae,Pseudoanthidium eximium,Pseudoanthidium eximium,1,1
+508,Megachilidae,Pseudoanthidium melanurum,Pseudoanthidium melanurum,1.333333,1
+291,Megachilidae,Pseudoanthidium ochrognathum,Pseudoanthidium ochrognathum,4.999999,5
+832,Megachilidae,Pseudoanthidium reticulatum,Pseudoanthidium reticulatum,1,1
+513,Megachilidae,Pseudoanthidium scapulare,Pseudoanthidium scapulare,1.181818,1
+496,Megachilidae,Pseudoanthidium wahrmannicum,Pseudoanthidium wahrmannicum,1.5,2
+833,Megachilidae,Pseudopanurgus aestivalis,Pseudopanurgus aestivalis,1,1
+834,Megachilidae,Pseudopanurgus andrenoides,Pseudopanurgus andrenoides,1,1
+498,Megachilidae,Rhodanthidium aculeatum,Rhodanthidium aculeatum,1.416667,1
+187,Megachilidae,Rhodanthidium caturigense,Rhodanthidium caturigense,7.72052,8
+99,Megachilidae,Rhodanthidium infuscatum,Rhodanthidium infuscatum,9.850375,10
+26,Megachilidae,Rhodanthidium septemdentatum,Rhodanthidium septemdentatum,13.138471,13
+157,Megachilidae,Rhodanthidium siculum,Rhodanthidium siculum,8.379787,8
+90,Megachilidae,Rhodanthidium sticticum,Rhodanthidium sticticum,10.355544,10
+464,Megachilidae,Rhodanthidium superbum,Rhodanthidium superbum,1.955209,2
+842,Megachilidae,Stenoheriades asiatica,Stenoheriades asiatica,1,1
+843,Megachilidae,Stenoheriades coelostoma,Stenoheriades coelostoma,1,1
+844,Megachilidae,Stenoheriades eingeddica,Stenoheriades eingeddica,1,1
+845,Megachilidae,Stenoheriades levantica,Stenoheriades levantica,1,1
+400,Megachilidae,Trachusa byssina,Trachusa byssina,2.867136,3
+854,Megachilidae,Trachusa dumerlei,Trachusa dumerlei,1,1
+855,Megachilidae,Trachusa interrupta,Trachusa interrupta,1,1
+285,Megachilidae,Trachusa laeviventre,Trachusa laeviventre,5.044155,5
+237,Megachilidae,Trachusa laticeps,Trachusa laticeps,6.091476,6
+487,Megachilidae,Trachusa pubescens,Trachusa pubescens,1.645161,2
+620,Melittidae,Capicola aliciae,Capicola aliciae,1,1
+621,Melittidae,Capicola braunsiana,Capicola braunsiana,1,1
+622,Melittidae,Capicola micheneri,Capicola micheneri,1,1
+623,Melittidae,Capicola nanula,Capicola nanula,1,1
+624,Melittidae,Capicola rufiventris,Capicola rufiventris,1,1
+150,Melittidae,Dasypoda albimana,Dasypoda albimana,8.498384,8
+439,Melittidae,Dasypoda albipila,Dasypoda albipila,2,2
+491,Melittidae,Dasypoda argentata,Dasypoda argentata,1.564972,2
+484,Melittidae,Dasypoda braccata,Dasypoda braccata,1.708004,2
+175,Melittidae,Dasypoda cingulata,Dasypoda cingulata,7.945953,8
+391,Melittidae,Dasypoda crassicornis,Dasypoda crassicornis,2.9992,3
+369,Melittidae,Dasypoda dusmeti,Dasypoda dusmeti,3.576374,4
+489,Melittidae,Dasypoda hirtipes,Dasypoda hirtipes,1.576585,2
+482,Melittidae,Dasypoda maura,Dasypoda maura,1.726817,2
+306,Melittidae,Dasypoda morotei,Dasypoda morotei,4.825153,5
+406,Melittidae,Dasypoda oraniensis,Dasypoda oraniensis,2.831636,3
+503,Melittidae,Dasypoda pyriformis,Dasypoda pyriformis,1.37037,1
+666,Melittidae,Dasypoda pyrotrichia,Dasypoda pyrotrichia,1,1
+415,Melittidae,Dasypoda sinuata,Dasypoda sinuata,2.524179,3
+667,Melittidae,Dasypoda spinigera,Dasypoda spinigera,1,1
+668,Melittidae,Dasypoda suripes,Dasypoda suripes,1,1
+669,Melittidae,Dasypoda tubera,Dasypoda tubera,1,1
+670,Melittidae,Dasypoda visnaga,Dasypoda visnaga,1,1
+394,Melittidae,Haplomelitta ogilviei,Haplomelitta ogilviei,2.989146,3
+756,Melittidae,Macropis europaea,Macropis europaea,1,1
+757,Melittidae,Macropis fulvipes,Macropis fulvipes,1,1
+758,Melittidae,Macropis nuda,Macropis nuda,1,1
+771,Melittidae,Melitta dimidiata,Melitta dimidiata,1,1
+772,Melittidae,Melitta haemorrhoidalis,Melitta haemorrhoidalis,1,1
+773,Melittidae,Melitta leporina,Melitta leporina,1,1
+774,Melittidae,Melitta nigricans,Melitta nigricans,1,1
+775,Melittidae,Melitta tricincta,Melitta tricincta,1,1
+390,Melittidae,Samba ogilviei,Samba ogilviei,2.999389,3
+840,Melittidae,Samba spinosa,Samba spinosa,1,1
