@@ -124,6 +124,56 @@ ggplot(data = correlations,
 
 # 4. dot and whisker plot with family and genus correlations --------------
 
+## a. creating a legend ---------------------------------------------------
+
+legend <- tribble(
+  ~x,       ~y,    ~sig_type,
+  "legend",  5, "yes_family",
+  "legend",  3,  "yes_genus",
+  "legend",  4,  "no_family",
+  "legend",  2,   "no_genus" 
+) |> 
+  ggplot(aes(x = x,
+             y = y,
+             ymin = y - 0.3,
+             ymax = y + 0.3,
+             shape = sig_type)) +
+  geom_pointrange(fill = "#FFFFFF") +
+  scale_shape_manual(values = c("yes_family" = 16, # closed circles
+                                "yes_genus" = 15, # closed squares
+                                "no_family" = 21, # open circles
+                                "no_genus" = 22), # open squares
+                     # new labels
+                     # to be honest, I don't like the way the legend looks here
+                     # I would probably do something different (and happy to help clean this up)
+                     # but for now leaving the way it is to get your feedback
+                     label = c("yes_family" = "Family",
+                               "yes_genus" = "Genus",
+                               "no_family" = "",
+                               "no_genus" = "")) +
+  annotate(geom = "label",
+           x = 1.3, y = 4.5,
+           label = "Plant families",
+           size = 2.5) +
+  annotate(geom = "label",
+           x = 1.3, y = 2.5,
+           label = "Plant genera",
+           size = 2.5) +
+  annotate(geom = "text",
+           x = 1.15, y = 5.8,
+           label = "Diet metric",
+           size = 3) +
+  # geom_segment(aes(x = 1.07,
+  #                  y = 4,
+  #                  yend = 5)) +
+  # geom_segment(aes(x = 1.07,
+  #                  y = 2,
+  #                  yend = 3)) +
+  theme_void() +
+  theme(legend.position = "none") 
+
+## b. making the figure ---------------------------------------------------
+
 ggplot(data = genuscorrelations,
        aes(x = beeFamily,
            y = estimate,
@@ -155,11 +205,21 @@ ggplot(data = genuscorrelations,
                                "no_genus" = "")) +
   # taking out the legend for linetype
   scale_linetype_discrete(guide = "none") +
+  scale_y_continuous(limits = c(-0.8, 0.8)) +
   labs(x = "Bee family",
        y = "Pearson correlation and 95% CI",
        shape = "Type") +
   theme_bw() +
   theme(panel.grid = element_blank(),
-        legend.position = "inside",
-        legend.position.inside = c(0.9, 0.8),
-        legend.background = element_blank())
+        legend.position = "none",
+        legend.background = element_blank()) +
+  patchwork::inset_element(legend, 0.68, 0.68, 1, 0.98)
+
+## c. saving the figure ---------------------------------------------------
+
+ggsave(width = 16, 
+       height = 10,
+       units = "cm",
+       dpi = 300,
+       "genus-and-family-correlation.png")
+
