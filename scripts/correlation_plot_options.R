@@ -196,9 +196,6 @@ ggplot(data = genuscorrelations,
                                 "no_family" = 21, # open circles
                                 "no_genus" = 22), # open squares
                      # new labels
-                     # to be honest, I don't like the way the legend looks here
-                     # I would probably do something different (and happy to help clean this up)
-                     # but for now leaving the way it is to get your feedback
                      label = c("yes_family" = "Family",
                                "yes_genus" = "Genus",
                                "no_family" = "",
@@ -222,4 +219,82 @@ ggsave(width = 16,
        units = "cm",
        dpi = 300,
        "genus-and-family-correlation.png")
+
+# 4. dot and whisker plot with family and genus slopes --------------------
+
+## a. wrangling -----------------------------------------------------------
+
+family_slopes <- emtrends(mod, var = "log_diet", specs = "beeFamily") |> 
+  as.data.frame() |> 
+  mutate(type = "family")
+
+all_slopes <- emtrends(genus_mod, var = "log_diet", specs = "beeFamily") |> 
+  as.data.frame() |> 
+  mutate(type = "genus") |> 
+  bind_rows(family_slopes) |> 
+  # complete the different combinations of beeFamily and type
+  # for example, there is now a new row for Colletidae with genus correlation,
+  # and it is full of NAs
+  # this is important for plotting down the line!
+  complete(beeFamily, type) |> 
+  # adding a new column with categorical p-value (significant or not)
+  mutate(sig = case_when(
+    lower.CL > 0 ~ "yes",
+    lower.CL <= 0 ~ "no"
+    #between(0, lower.CL, upper.CL) ~ "no"
+  )) |> 
+  # creating a new column with significance and type and setting factor order
+  mutate(sig_type = paste0(sig, "_", type),
+         sig_type = fct_relevel(as.factor(sig_type),
+                                "yes_family", "no_family","yes_genus", "no_genus", "NA_genus")) |> 
+  # making "yes" come first in factor order in the sig column
+  mutate(sig = fct_relevel(as.factor(sig), "yes", "no"))
+
+## b. making the figure ---------------------------------------------------
+
+ggplot(data = all_slopes,
+       aes(x = beeFamily,
+           y = log_diet.trend,
+           color = beeFamily)) +
+  geom_hline(yintercept = 0, 
+             linetype = 3,
+             color = "darkgrey") +
+  geom_pointrange(aes(shape = sig_type,
+                      ymin = lower.CL,
+                      ymax = upper.CL,
+                      lty = sig),
+                  position = position_dodge(width = 0.5),
+                  size = 1,
+                  linewidth = 1,
+                  fill = "#FFFFFF") +
+  scale_color_manual(values = family_colors,
+                     guide = "none") +
+  scale_shape_manual(values = c("yes_family" = 16, # closed circles
+                                "yes_genus" = 15, # closed squares
+                                "no_family" = 21, # open circles
+                                "no_genus" = 22), # open squares
+                     # new labels
+                     label = c("yes_family" = "Family",
+                               "yes_genus" = "Genus",
+                               "no_family" = "",
+                               "no_genus" = "")) +
+  # taking out the legend for linetype
+  scale_linetype_discrete(guide = "none") +
+  scale_y_continuous(limits = c(-3.5, 2.5)) +
+  labs(x = "Bee family",
+       y = "Slope estimate and 95% CI",
+       shape = "Type") +
+  theme_bw() +
+  theme(panel.grid = element_blank(),
+        legend.position = "none",
+        legend.background = element_blank()) +
+  patchwork::inset_element(legend, 0.68, 0.68, 1, 0.98)
+
+## c. saving the figure ---------------------------------------------------
+
+ggsave(width = 16, 
+       height = 10,
+       units = "cm",
+       dpi = 300,
+       "genus-and-family-slopes.png")
 
