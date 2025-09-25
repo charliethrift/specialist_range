@@ -72,6 +72,22 @@ ggsave(width = 16,
        "figures/occurrence_pts.png")
 
 
+ggplot(unq_pts_round, aes(decimalLongitude,decimalLatitude))+
+  geom_polygon(data = world, aes(x=long,y=lat,group=group),fill="gray",alpha=0.5)+
+  geom_hex(bins=100)+
+  scale_fill_viridis_b(option="plasma",
+                       breaks=c(10,100,1000,10000,100000))+
+  scale_y_continuous(breaks = c(-40,0,40),
+                     labels = c("-40\u00b0","0\u00b0","40\u00b0"))+
+  scale_x_continuous(breaks = c(-120,0,120),
+                     labels = c("-120\u00b0","0\u00b0","120\u00b0"))+
+  labs(x="Longitude",y="Latitude",fill="Count")+
+  theme_bw()+
+  facet_wrap(~family)
 
-
+ggsave(width = 20,
+       height = 12,
+       units = "cm",
+       dpi = 300,
+       "figures/occurrence_pts_facet.png")
 
