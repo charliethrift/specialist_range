@@ -149,7 +149,8 @@ model_2_log <- lm(log_area ~ log_hill*bee_family, data = fam_hill_2_s_chr_df)
 summary(model_2_log)
 emtrends(model_2_log, var = "log_hill", specs = "bee_family")
 
-
+# write csv, for use in PGLS in separate script
+write.csv(fam_hill_2_s_chr_df, "../data/phylo_numbers_df.csv")
 
 
 ####################################################
