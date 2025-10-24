@@ -1,4 +1,4 @@
-# Floral specialization correlates with restricted range size in bees across six families
+# Concentrated vulnerabilities in bees: diet specialists have smaller geographic ranges
 [Charles N. Thrift](https://orcid.org/0000-0002-4257-6951), [Thomas J. Wood](https://orcid.org/0000-0001-5653-224X), An Bui, Hillary S. Young, & [Katja C. Seltmann](https://orcid.org/0000-0001-5354-6048)
 
 _In prep_
@@ -11,9 +11,8 @@ Diet breadth and range size are two important life history traits, and species w
 
 ## Methods Summary
 1. Estimate range size in bee species (extent of occurrence) using convex-hulls, with cleaned global occurrence data from Dorey et al., 2023
-2. Quantify diet as the number of plant genera a bee species collects pollen from, with pollen data from Wood et al., 2023
-3. Analyze the relationship between range and diet using linear models
-4. Current work: incorporate phylogenetic diversity metrics for plants and account for phylogeny in bees
+2. Quantify diet as: categorical (specialist/generalist), numeric (rarefied count of plant families), and phylogenetic (breadth of plant families), with pollen data from Wood et al., 2023
+3. Analyze the relationship between range and diet using Pearson's correlation tests, t-tests, linear models, PGLS regression
 
 
 # Repository Directory
@@ -22,9 +21,7 @@ Diet breadth and range size are two important life history traits, and species w
 
 | File Name | Description |
 | :------- | :------ |
-| data_clean_dietFamily.csv | Bee species, family, and range variables |
-| family_rarified.csv | Rarefied diet information for bee species at plant **family** level |
-| genus_rarified.csv | Rarefied diet information for bee species at the plant **genus** level |
+| data_2025_09.csv | Bee species, family, and range variables |
 | clipped_hulls_dietFamily_july25/ clipped_hulls_dietFamily_july25.shp | Convex hulls for each bee species, exluding ocean regions. **Note:** when reading this file, the other files in the "clipped_hulls_dietFamily_july25" folder must be present. (Don't download just the .shp file). |
 
 
@@ -33,9 +30,9 @@ Diet breadth and range size are two important life history traits, and species w
 | File Name | Description |
 | :------- | :------ |
 | create_hulls.R | Build convex hulls for each species using occurrence data |
-| analyses.R | Run linear models and build all figures |
-| bee_phylogeny.R | Construct bee species phylogeny and run PGLS |
-| analyses_2025_august.R | Updated version of analyses.R, (Charlie: revisit and clean up!) |
+| analyses_2025_10.R | Main analyses and figures |
+| analyses_phylogeny_2025_10.R | Calculate phylogenetic diet breadth and analyze |
+| analyses_pgls_2025_10.R | Construct bee species phylogeny and run PGLS |
 
 
 
