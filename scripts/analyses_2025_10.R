@@ -16,6 +16,7 @@ library(rnaturalearth)
 # 1. Read Data, Log-Transform, Set Colors
 ####################################################
 data <- read_csv("../data/data_2025_09.csv")
+genus_data <- data %>% filter(!is.na(diet_genera_rareCount))
 data <- data %>% dplyr::select(-diet_genera_rareCount)
 data <- data %>% mutate(log_area = log(eoo_size_m2),
                         log_diet = log(diet_families_rareCount))
@@ -281,3 +282,53 @@ family_slopes_s <- emtrends(smod, var = "log_diet", specs = "bee_family") |>
            lower.CL <= 0 ~ "no"),
          sig = fct_relevel(as.factor(sig), "yes", "no"))
 # same slopes, where AND, API, COL, MEG = significant; HAL and MEL = NS
+
+
+
+
+
+
+
+###############################
+# Compare to genus-level diet data
+###############################
+genus_data <- genus_data %>% 
+  mutate(log_area = log(eoo_size_m2),
+         log_diet_fam = log(diet_families_rareCount),
+         log_diet_gen = log(diet_genera_rareCount))
+# to compare with fam data, use genus_data$log_diet_fam
+cor.test(genus_data$log_area, genus_data$log_diet_fam, method = "pearson") #0.56
+cor.test(genus_data$log_area, genus_data$log_diet_gen, method = "pearson") #0.59
+
+t.test(log_area ~ diet_binary, data = genus_data) # same formula same result
+t.test(log_area ~ diet_binary, data = genus_data) # t test 
+rstatix::cohens_d(log_area~diet_binary,data=genus_data,var.equal = F) # same formula same result
+rstatix::cohens_d(log_area~diet_binary,data=genus_data,var.equal = F) # cohen's d
+
+smodgen <- lm(log_area~log_diet_gen * bee_family, data=genus_data) # family and diet interactive effect
+DHARMa::simulateResiduals(smodgen, plot = TRUE)
+summary(smodgen)
+emtrends(smodgen, var = "log_diet_gen", specs = "bee_family")
+
+family_slopes_s <- emtrends(smodgen, var = "log_diet_gen", specs = "bee_family") |> 
+  as.data.frame() |> 
+  mutate(type = "family",
+         sig = case_when(
+           lower.CL > 0 ~ "yes",
+           lower.CL <= 0 ~ "no"),
+         sig = fct_relevel(as.factor(sig), "yes", "no"))
+smodfam <- lm(log_area~log_diet_fam * bee_family, data=genus_data) # family and diet interactive effect
+DHARMa::simulateResiduals(smodfam, plot = TRUE)
+summary(smodfam)
+emtrends(smodfam, var = "log_diet_fam", specs = "bee_family")
+
+family_slopes_s <- emtrends(smodfam, var = "log_diet_fam", specs = "bee_family") |> 
+  as.data.frame() |> 
+  mutate(type = "family",
+         sig = case_when(
+           lower.CL > 0 ~ "yes",
+           lower.CL <= 0 ~ "no"),
+         sig = fct_relevel(as.factor(sig), "yes", "no"))
+
+
+

@@ -14,6 +14,7 @@ library(caper)
 
 # 1. Read Data
 data <- read_csv("../data/data_2025_09.csv")
+genus_data <- data %>% filter(!is.na(diet_genera_rareCount))
 data <- data %>% dplyr::select(-diet_genera_rareCount)
 data <- data %>% mutate(log_area = log(eoo_size_m2),
                         log_diet = log(diet_families_rareCount))
@@ -110,6 +111,51 @@ comp_data_s2 <- comparative.data(phy = tree_ultra,
 model_s2 <- pgls(log_area ~ log_hill, data = comp_data_s2, lambda = "ML")
 summary(model_s2)
 
+###### Repeat analyses on subset (n = 174) of species with genus-level diet data
+genus_data$log_gen_diet <- log(genus_data$diet_genera_rareCount)
+genus_data$log_area <- log(genus_data$eoo_size_m2)
+genus_data$log_diet <- log(genus_data$diet_families_rareCount)
+bee_species_gen <- c(unique(genus_data$bee_species),outgroups_sp) # bee species plus the outgroup
+matching_names_gen <- tree_tips[!tree_tips %in% bee_species_gen]
+trimmed_tree_gen <- drop.tip(mytree, matching_names_gen)
+trimmed_tree_gen$tip.label #check labels
+plot(trimmed_tree_gen)
+tree_ultra_gen <- chronos(trimmed_tree_gen)
+tree_ultra_gen$node.label <- NULL # drop node labels prior to running pgls
+genus_data <- as.data.frame(genus_data)
+comp_data_gen <- comparative.data(phy = tree_ultra_gen,
+                                  data = genus_data,
+                                  names.col = "bee_species", 
+                                  vcv = TRUE)
+gen_mod <- pgls(log_area ~ log_gen_diet, data = comp_data_gen, lambda = "ML")
+summary(gen_mod)
+# repeat with phylogenetic diet breadth
+genus_phy_data <- read_csv("../data/phylo_numbers_df_genus.csv")
+genus_phy_data$log_hill_gen <- log(genus_phy_data$genus_hill)
+genus_phy_data <- as.data.frame(genus_phy_data)
+comp_data_gen_phylo <- comparative.data(phy = tree_ultra_gen,
+                                  data = genus_phy_data,
+                                  names.col = "bee_species", 
+                                  vcv = TRUE)
+gen_mod_phylo <- pgls(log_area ~ log_hill_gen, data = comp_data_gen_phylo, lambda = "ML")
+summary(gen_mod_phylo)
 
+
+
+#### Compare to the regular, family-level diet dataset, subset to those same 174 species
+# to do this, just use the same code and data frame, with "log_diet" column
+
+gen_mod_fam <- pgls(log_area ~ log_diet, data = comp_data_gen, lambda = "ML")
+summary(gen_mod_fam)
+
+## Compare with family-level phylogenetic diet, subset to the same 174 species
+fam_phy_data <- read_csv("../data/phylo_numbers_df_fam_compare.csv")
+fam_phy_data <- as.data.frame(fam_phy_data)
+comp_data_fam_phylo <- comparative.data(phy = tree_ultra,
+                                        data = fam_phy_data,
+                                        names.col = "bee_species", 
+                                        vcv = TRUE)
+fam_mod_phylo <- pgls(log_area ~ log_hill, data = comp_data_fam_phylo, lambda = "ML")
+summary(fam_mod_phylo)
 
 

@@ -15,6 +15,7 @@ library(caper)
 
 # 1. Read Data
 data <- read_csv("../data/data_2025_09.csv")
+genus_data <- data %>% filter(!is.na(diet_genera_rareCount))
 data <- data %>% dplyr::select(-diet_genera_rareCount)
 data <- data %>% mutate(log_area = log(eoo_size_m2),
                         log_diet = log(diet_families_rareCount))
@@ -160,5 +161,121 @@ sdfp <- fam_hill_2_s_chr_df %>% filter(count_in_Dorey >= 15)
 mod_sdfp <- lm(log_area ~ log_hill*bee_family, data = sdfp)
 summary(mod_sdfp)
 emtrends(mod_sdfp, var = "log_hill", specs = "bee_family")
+
+####################################################
+# 3. Supplemental: Repeat analysis for genus-level diets
+####################################################
+
+# 1. Read Data
+data <- read_csv("../data/data_2025_09.csv")
+genus_data <- data %>% filter(!is.na(diet_genera_rareCount))
+genus_data <- genus_data %>% 
+  mutate(log_area = log(eoo_size_m2),
+         log_diet_fam = log(diet_families_rareCount),
+         log_diet_gen = log(diet_genera_rareCount))
+
+tree_genus <- read.tree("../data/genus_tree_seed_plants.tre")
+
+is.ultrametric(tree_genus) # FALSE
+Ntip(tree_genus) #15498 tips
+tree_genus$tip.label
+
+# get a list of plant genera being visited
+genus_list <- read_csv("../../pollen_data/genus_list_plants.csv") # 336 genera
+
+# Prune Trees
+tree_tips_genus <- as.data.frame(tree_genus$tip.label)
+tree_tips_genus <- rename(tree_tips_genus, genus = "tree_genus$tip.label")
+matching_names_genus_inverse <- anti_join(tree_tips_genus,genus_list,by="genus")
+tips_to_remove_genus <- as.character(matching_names_genus_inverse$genus)
+trimmed_tree_genus <- drop.tip(tree_genus, tips_to_remove_genus)
+trimmed_tree_genus$tip.label # 298 genera 
+
+
+# Make Ultrametric
+tree_gen_ultra <- chronos(trimmed_tree_genus)
+
+# Make community matrix for genus level data
+pollen_all <- read_csv("../../pollen_data/pollen_data_all.csv")
+harmonize_bee <- read_csv("../../pollen_data/harmonize_bee_sp_names.csv")
+harmonize_pollen <- read_csv("../../pollen_data/harmonize_pollen_genera.csv")
+
+pollen_all <- rename(pollen_all,sp_wood_og = Species)
+pollen_all_match <- inner_join(pollen_all,harmonize_bee, by = "sp_wood_og")
+pollen_all_match1 <- inner_join(pollen_all_match,harmonize_pollen, by = "Plant pollen 1")
+pollen_all_match1 <- pollen_all_match1 %>% 
+  rename(bee_species = sp_wood_clean,
+         plant_genus = drop_fam_unk)
+pollen_all_match_filtered <- pollen_all_match1[,-c(2,4,6,8,10,12:18)]
+pollen_all_match_filtered <- subset(pollen_all_match_filtered, Weight > 2)
+# make a new ID column (some IDs are used on multiple specimens)
+pollen_all_match_filtered <- rename(pollen_all_match_filtered, ID = "ID#")
+pollen_all_match_filtered$newID <- pollen_all_match_filtered
+pollen_all_match_filtered <- pollen_all_match_filtered %>% 
+  mutate(newID = paste(bee_species,ID,sep = "_"))
+# rarefy this dataset!
+bee_richness <- pollen_all_match_filtered %>%
+  distinct(bee_species, newID) %>%
+  count(bee_species, name = "n_samples")
+bee_rich_5 <- subset(bee_richness,n_samples >= 5)
+bee_rich_10 <- subset(bee_richness,n_samples >= 10)
+bee_rich_20 <- subset(bee_richness,n_samples >= 20)
+
+pollen_df <- subset(pollen_all_match_filtered, bee_species %in% bee_rich_10$bee_species)
+set.seed(123)
+sampled_ids <- pollen_df %>% 
+  distinct(bee_species, ID) %>% 
+  group_by(bee_species) %>% 
+  slice_sample(n = 10) %>% 
+  ungroup()
+pollen_df_rare <- pollen_df %>% 
+  semi_join(sampled_ids, by = c("bee_species","ID"))
+
+comm_matrix_gen <- pollen_df_rare %>%
+  distinct(bee_species, plant_genus) %>%
+  mutate(value = 1) %>%
+  pivot_wider(
+    names_from = plant_genus,
+    values_from = value,
+    values_fill = list(value = 0))
+comm_matrix_gen_filtered <- 
+  comm_matrix_gen[, colnames(comm_matrix_gen) %in% trimmed_tree_genus$tip.label]
+comm_matrix_gen_filtered <- as.data.frame(comm_matrix_gen_filtered)
+
+library(hillR)
+
+genus_list1 <- as.data.frame(colnames(comm_matrix_gen_filtered))
+genus_list1 <- rename(genus_list1, genus = "colnames(comm_matrix_gen_filtered)")
+tree_tips_genus_1 <- as.data.frame(tree_gen_ultra$tip.label)
+tree_tips_genus_1 <- rename(tree_tips_genus_1, genus = "tree_gen_ultra$tip.label")
+matching_names_genus_inverse_1 <- anti_join(tree_tips_genus_1,genus_list1,by="genus")
+tips_to_remove_genus_1 <- as.character(matching_names_genus_inverse_1$genus)
+trimmed_tree_genus_1 <- drop.tip(tree_gen_ultra, tips_to_remove_genus_1)
+trimmed_tree_genus_1$tip.label # 217 genera
+trimmed_tree_genus_1_ultra <- chronos(trimmed_tree_genus_1)
+
+genus_hill <- hill_phylo(comm = comm_matrix_gen_filtered,
+                         tree = trimmed_tree_genus_1_ultra,
+                         q = 2, # to get inverse simpson
+                         rel_then_pool = FALSE)
+genus_hill_scores <- cbind(comm_matrix_gen[1],genus_hill)
+genus_data_scores_2 <- left_join(genus_data, genus_hill_scores, by = "bee_species")
+# write this as a csv, for use in PGLS
+write.csv(genus_data_scores_2, "../data/phylo_numbers_df_genus.csv")
+
+
+# now, analyze
+# phylogenetic linear regression
+hist(genus_data_scores_2$genus_hill)
+genus_data_scores_2$log_hill_gen <- log(genus_data_scores_2$genus_hill)
+mod_gen_phy <- lm(log_area ~ log_hill_gen*bee_family, data = genus_data_scores_2)
+summary(mod_gen_phy)
+
+# compare with family-level data within these 174 species
+fam_filtered <- fam_hill_2_s_chr_df %>% 
+  filter(bee_species %in% genus_data_scores_2$bee_species)
+mod_fam_phy <- lm(log_area ~ log_hill*bee_family, data = fam_filtered)
+summary(mod_fam_phy)
+write.csv(fam_filtered, "../data/phylo_numbers_df_fam_compare.csv")
 
 
