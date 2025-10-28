@@ -23,6 +23,7 @@ Wild bees are experiencing declines, yet most bee species remain unassessed for 
 | :------- | :------ |
 | data_2025_09.csv | Bee species, family, and range variables |
 | clipped_hulls_dietFamily_july25/ clipped_hulls_dietFamily_july25.shp | Convex hulls for each bee species, exluding ocean regions. **Note:** when reading this file, the other files in the "clipped_hulls_dietFamily_july25" folder must be present. (Don't download just the .shp file). |
+| output_data/suppTable1.csv | Full dataset analyzed, 633 bee species with diet and range information | 
 
 
 ## Scripts: Contains code for data analysis in R
