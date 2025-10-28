@@ -1,6 +1,8 @@
 # Concentrated vulnerabilities in bees: Diet specialists have smaller geographic ranges
 [Charles N. Thrift](https://orcid.org/0000-0002-4257-6951), [Thomas J. Wood](https://orcid.org/0000-0001-5653-224X), [An Bui](https://orcid.org/0000-0002-9548-7776), Hillary S. Young, & [Katja C. Seltmann](https://orcid.org/0000-0001-5354-6048)
 
+https://doi.org/10.5281/zenodo.17468011
+
 _In prep_
 
 Please contact Charles Thrift for questions regarding the code or data (cnthrift@ucsb.edu)
