@@ -30,10 +30,10 @@ Wild bees are experiencing declines, yet most bee species remain unassessed for 
 
 | File Name | Description |
 | :------- | :------ |
-| create_hulls.R | Build convex hulls for each species using occurrence data |
+| build_hulls.R | Build convex hulls for each species using occurrence data |
 | analyses_2025_10.R | Main analyses and figures |
 | analyses_phylogeny_2025_10.R | Calculate phylogenetic diet breadth and analyze |
-| analyses_pgls_2025_10.R | Construct bee species phylogeny and run PGLS |
+| analyses_pgls_2025_10.R | Construct bee species phylogeny and run PGLS | 
 
 
 
