@@ -14,7 +14,7 @@ Wild bees are experiencing declines, yet most bee species remain unassessed for 
 ## Methods Summary
 1. Estimate range size in bee species (extent of occurrence) using convex-hulls, with cleaned global occurrence data from Dorey et al., 2023
 2. Quantify diet as: categorical (specialist/generalist), numeric (rarefied count of plant families), and phylogenetic (breadth of plant families), with pollen data from Wood et al., 2023
-3. Analyze the relationship between range and diet using Pearson's correlation tests, t-tests, linear models, PGLS regression
+3. Analyze the relationship between range and diet using Spearman's correlation tests, generalized linear models, and PGLS regression
 
 
 # Repository Directory
@@ -33,9 +33,12 @@ Wild bees are experiencing declines, yet most bee species remain unassessed for 
 | File Name | Description |
 | :------- | :------ |
 | build_hulls.R | Build convex hulls for each species using occurrence data |
-| analyses_2025_10.R | Main analyses and figures |
-| analyses_phylogeny_2025_10.R | Calculate phylogenetic diet breadth and analyze |
-| analyses_pgls_2025_10.R | Construct bee species phylogeny and run PGLS | 
+| analyses_2026_2.R | Main analyses and figures |
+| analyses_phylogeny_2026_2.R | Calculate phylogenetic diet breadth and analyze |
+| analyses_pgls_2026_2.R | Construct bee species phylogeny and run PGLS | 
+| rarefy_occurrences.R | Rarefy 100 range size estimates by rarefying occurrence data | 
+| model_rarefied_occurrences.R | Run analyses with rarefied occurrence data | 
+
 
 
 
